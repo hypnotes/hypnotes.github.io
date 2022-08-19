@@ -2,102 +2,100 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
+  name: "Ha Yeong Park"
   label: "Programmer"
   picture: "https://via.placeholder.com/240x240"
   email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  phone: "(+82) 010-8243-1311"
+  website: "https://hypnotes/github.io"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    Hello, I don't know what to put in this area
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
-  profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
-    - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+    #address: "2712 Broadway St"
+    #postalCode: "CA 94115"
+    #city: "San Francisco"
+    countryCode: "KR"
+    region: "Seoul"
+
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
-    endDate: ""
+  - company: "Testworks"
+    position: "Test Engineer"
+    website: "https://www.testworks.co.kr/index.html?gclid=CjwKCAjwlqOXBhBqEiwA-hhitO2hG118gAjmBCU99wGi7zz5Lqz5ZrZKmAda2XfQtaLMKnYO7Ots1RoC7gEQAvD_BwE"
+    startDate: "2022-05-02"
+    endDate: "2022-08-12"
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      Later
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
-    highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Worked as a Modem Tester in Samsung Electronics for 1 month"
+      - "Tested Websites in Testworks as a QA for 2.5 months"
+      - "Optimized testing process using automation tools such as Robot Framework"
+# volunteer:
+#   - organization: "CoderDojo"
+#     position: "Teacher"
+#     website: "https://coderdojo.com/"
+#     startDate: "2012-01-01"
+#     endDate: "2013-01-01"
+#     summary: "Global movement of free coding clubs for young people."
+#     highlights:
+#       - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
+  - institution: "University of Korea"
+    area: "Computer Science"
+    studyType: "Studing"
+    startDate: "2020-03-01"
+    endDate: ""
+    gpa: "3.7"
     courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+      - "To be added LATER"
+# awards:
+#   - title: "Digital Compression Pioneer Award"
+#     date: "2014-11-01"
+#     awarder: "Techcrunch"
+#     summary: "There is no spoon."
+# publications:
+#   - name: "Video compression for 3d media"
+#     publisher: "Hooli"
+#     releaseDate: "2014-10-01"
+#     website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+#     summary: "Innovative middle-out compression algorithm that changes the way we store data."
 skills:
   - name: "Web Development"
-    level: "Master"
+    level: "Beginner"
     keywords:
       - "HTML"
       - "CSS"
       - "Javascript"
-  - name: "Compression"
-    level: "Master"
+      - "React"
+  - name: "Testing"
+    level: "Intermediate"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "Modem"
+      - "Websites"
+      - "Automation"
 languages:
+  - language: "Korean"
+    fluency: "Native speaker"
+  - language: " "
+    fluency: "TOPIC 6"
   - language: "English"
     fluency: "Native speaker"
+  - language: " "
+    fluency: "TOEFL 112, TOEIC 970"
+  - language: "Chinese"
+    fluency: "Professional working proficiency"
+  - language: " "
+    fluency: "HSK 6"
 interests:
-  - name: "Wildlife"
+  - name: "Movies"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+      - "all genres"
+      - "wine"
+  - name: "New"
+    keywords:
+      - "People"
+      - "Experiences"
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
