@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: plain
 sitemap: false
 ---
@@ -1458,4 +1458,4 @@ Oct 15 2013
 
 [buy]: https://app.simplegoods.co/i/AQTTVBOE
 [PRO-license]: licenses/PRO.md
-[GPL-3.0]: licenses/GPL-3.0.md
+[GPL-3.0]: licenses/GPL-3.0.md -->

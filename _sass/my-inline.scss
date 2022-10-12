@@ -1,2 +1,30 @@
 // Uncomment to disable dingbat icons below posts
 // hr.dingbat { display: none }
+
+mark {
+    color: #bbb;
+    background-color: #623797;
+}
+
+marklight {
+    color: #bbb;
+    background-color: #8e78aa;
+}
+
+fontcolor {
+    color: #b08adf;
+}
+
+fade {
+    color: #9f9f9f
+}
+
+underline {
+    border-bottom: 1px solid #b08adf;
+}
+/*
+
+<div class="fontcolor"> </div>
+<div class="marklight"> </div>
+
+*/
