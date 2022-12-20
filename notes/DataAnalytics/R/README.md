@@ -17,14 +17,15 @@ last_modified_at: 2022-09-05
 - [Corpus]{:.heading.flip-title} --- What Corpus is
 - [R Fundamentals]{:.heading.flip-title} --- What Corpus is
 - [Vector]{:.heading.flip-title} --- Vectors, the most used data structure in R (sofar)
-  {:.related-posts.faded}
 - [Factor]{:.heading.flip-title} --- Definitely different from Vectors
-  {:.related-posts.faded}
 - [Data Frame]{:.heading.flip-title} --- How we can handle big datas easily
-  {:.related-posts.faded}
 - [텍스트 처리]{:.heading.flip-title} --- How we can handle big datas easily
-  {:.related-posts.faded}
 - [Markup Language]{:.heading.flip-title} --- 마크업 언어와 문자코드
+- [제어문과 다중파일 처리]{:.heading.flip-title} --- 마크업 언어와 문자코드
+- [빈도분석]{:.heading.flip-title} --- 이것도
+- [N-Gram 및 연어분석]{:.heading.flip-title} --- 어렵당
+- [키워드 분석]{:.heading.flip-title} --- 이거 개긺
+- [탐색적 분석]{:.heading.flip-title} --- temp
   {:.related-posts.faded}
 
 [corpus]: ./_posts/2022-09-05-Corpus.md
@@ -34,3 +35,8 @@ last_modified_at: 2022-09-05
 [Data Frame]: ./_posts/2022-10-12-DataFrame.md
 [텍스트 처리]: ./_posts/2022-10-17-TextHandling.md
 [Markup Language]: ./_posts/2022-11-02-MarkupLang.md
+[제어문과 다중파일 처리]: ./_posts/2022-11-09-Control.md
+[빈도분석]: ./_posts/2022-11-16-FrequencyAnalysis.md
+[N-Gram 및 연어분석]: ./_posts/2022-11-30-NGram.md
+[키워드 분석]: ./_posts/2022-12-19-KeywordAnalysis.md
+[탐색적 분석]: ./_posts/2022-12-19-SearchAnalysis.md

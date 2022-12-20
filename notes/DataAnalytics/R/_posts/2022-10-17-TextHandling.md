@@ -214,8 +214,8 @@ ERROR...
 > grep( "i", a )  
 [1] 1 3
 ```
-- <fontcolor><bold>index를 반환</fontcolor></bold>한다
-- **value = T** 속성을 넣으면 index가 아닌 값을 반환함
+- <fontcolor><bold>index를 반환</bold></fontcolor>
+- **value = T** 속성을 넣으면 index가 아닌, **값**을 반환함
 ```R
 > grep( "i", a, value = T )  
 [1] "the first" "the third"
@@ -265,40 +265,118 @@ a ← c ("gray", "grey", "grant" )
 ```
 
 - 연습문제 #1 : WhatIsR의 단어 중 'w' 또는 'W"로 시작하거나 끝나는 문자열 추출
-답안 (3가지 방법)
 
-1. TEXT[ grep("^w|^W|w$|W$", TEXT)]
-2. TEXT[ grepl("^w|w$", TEXT, ignore.case=T)]
-3. grep("^w|w$", TEXT, ignore.case=T, value=T)
 
+  <details>                   <!--문제#1 -->
+  <summary>답안 (3가지 방법)</summary>
+  <div markdown="1">
+    ```R
+    1. TEXT[ grep("^w|^W|w$|W$", TEXT)]
+    2. TEXT[ grepl("^w|w$", TEXT, ignore.case=T)]
+    3. grep("^w|w$", TEXT, ignore.case=T, value=T) 
+    ``` 
+  </div></details>
 
 ### 반복 문자 및 매칭 문자
-| 정규표현 문자    | 의미     | 예 ]
+
+
+| 정규표현 문자    | 의미     | 예  |
 |:--------------|:------------|:------------|
 | **\*** |  0 or 1 more time  | ca*t = ct, cat, caat, caaaaaat, ... |
 | **+** |  at least 1 time | ca+t = cat, caat, caaaaaat, ... |
 | **?** |  0 or 1 time  | ca?t = ct, cat |
 | **.** | _하나 들어감  | ca.t = caat, cabt; ca..t = caaat, caabt 등등 |
 
-- 연습문제 #2: 
-  - 문자열 끝이 "ed" 또는 "e"인 경우 출력 &&
-  - 문자열 중간에 '-' 포함
+```R
+> a <- c( "ac", "abc", "abbc", "abbbc", "abbbbc")
+```
 
+  <details>                   <!--문제#1 -->
+  <summary>1. <code>grep( "ab*c", a, value= T )</code></summary>
+  <div markdown="1">
+    [1] "ac"  "abc"  "abbc"  "abbbc"  "abbbbc"
+  </div></details>
 
-답:
-  - TEXT[ grep("^.+-.+(ed$|e$)", TEXT)] 또는
-  - grep("^.+-.+(ed$|e$)", TEXT, value = T)
+  <details>                   <!--문제#2 -->
+  <summary>2. <code>grep( "ab+c", a, value = T )</code></summary>
+  <div markdown="1">
+    [1] "abc"    "abbc"   "abbbc"  "abbbbc"
+  </div></details>
+
+  <details>                   <!--문제#3 -->
+  <summary>3. <code>grep( "ab?c", a, value = T )</code></summary>
+  <div markdown="1">
+    [1] "ac"  "abc"
+  </div></details>
+
+  <details>                   <!--문제#4 -->
+  <summary>4. <code>grep( "ab.c", a, value = T )</code></summary>
+  <div markdown="1">
+    [1] "abbc"
+  </div></details>
+
+  <details>                   <!--문제#5 -->
+  <summary>5. <code>grep( "ab..c", a, value = T )</code></summary>
+  <div markdown="1">
+    [1] "abbbc"
+  </div></details>
+
+<br/>
+
+```R
+> a <- c( "uneasy", "unexpected", "unbiased", "uned" )
+```
+
+  <details>                   <!--문제#6 -->
+  <summary>6. <code>grep( "un.*ed", a, value= T)</code></summary>
+  <div markdown="1">
+    [1] "unexpected" "unbiased"   "uned"
+  </div></details>
+
+  <details>                   <!--문제#7 -->
+  <summary>7. <code>grep( "un.?ed", a, value= T)</code></summary>
+  <div markdown="1">
+    [1] "uned"
+  </div></details>
+
+  <details>                   <!--문제#8 -->
+  <summary>8. <code>grep( "un.+ed", a, value= T)</code></summary>
+  <div markdown="1">
+    [1] "unexpected" "unbiased"
+  </div></details>
+
+<br/>
+
+- **연습문제 #2:**
+  <details>                   <!--연습문제#2 -->
+  <summary> 문자열 끝이 "ed" 또는 "e"인 경우 출력 && 문자열 중간에 '-' 포함</summary>
+  <div markdown="1">
+    <code>TEXT[ grep("^.+-.+(ed$|e$)", TEXT)]</code> 또는
+    <code>grep("^.+-.+(ed$|e$)", TEXT, value = T)</code>
+  </div></details>
+
 
 ### 문자 목록 중 하나 일치
 - [kbp] = k,b,p 중 하나 일치
 - [A-Z] / [a-z] / [a-zA-Z]
 - [가-힣] 
-- [^가] : [] 안에 있는 '^'는 <code>not</code>임 
+- [^가] : [ ] 안에 있는 '^'는 <code>not</code>임 
+
 - NOT 개념 제대로 이해하기 
+
+  ```R
+  > a <- c("Korea", "대한민국", "ㄹ수록","ㄹㄹㄹ")
+
+  > grep("[가-힣]", a, value=T)
+  [1] "대한민국" "ㄹ수록"
+
+  > grep("[^가-힣]", a, value=T)
+  [1] "Korea"  "ㄹ수록" "ㄹㄹㄹ"  #이 char안에 하.나.도. 없어야 함
+  ```
 
 ### 이스케이프 문자
 - 정규표현 메타문자
-  - . $ * ? | ^ [] ()
+  - . $ * ? \| ^ [] ()
 
 - 문제:
 
@@ -354,13 +432,50 @@ a ← c ("gray", "grey", "grant" )
 | **[:alnum:]** | 문자와 숫자  |   |
 | **[:graph:]** | 문자, 숫자, 문장부호  |   |
 
+```R
+a <- c( "apple", "orange", " ", "\t", "\n", ";", "123", "123 apple")
+```
 
-- page 3
+  <details>                   <!--문제#1 -->
+  <summary>1. <code>grep("[[:space:]]", a, value = T )</code></summary>
+  <div markdown="1">
+    [1] " "         "\t"        "\n"        "123 apple"
+  </div></details>
 
-### 어휘 경계 \\b 여기 보기...
+  <details>                   <!--문제#2 -->
+  <summary>2. <code>grep("[^[:space:]]", a, value = T )</code></summary>
+  <div markdown="1">
+    [1] "apple"     "orange"    ";"         "123"       "123 apple"
+  </div></details>
+
+  <details>                   <!--문제#3 -->
+  <summary>3. <code>grep("[[:alpha:]]", a, value = T )</code></summary>
+  <div markdown="1">
+    [1] "apple"     "orange"    "123 apple"
+  </div></details>
+
+  <details>                   <!--문제#4 -->
+  <summary>4. <code>grep("[[:digit:]]", a, value = T )</code></summary>
+  <div markdown="1">
+    [1] "123"        "123 apple"
+  </div></details>
+
+  <details>                   <!--문제#5 -->
+  <summary>5. <code>grep("[[:punct:]]", a, value = T )</code></summary>
+  <div markdown="1">
+    [1] ";"
+  </div></details>
+
+  <details>                   <!--문제#6 -->
+  <summary>6. <code>grep("[[:punct:][:digit:]]", a, value = T )</code></summary>
+  <div markdown="1">
+    [1]  ";", "123", "123 apple"
+  </div></details>
+
+### 어휘 경계 \\b 
 
 ```R
-a <- c( "motor car", "car", "cartoon", "bicarbonate", " car", "car\n", "123car", "~car.")
+a <- c( "motor car", "car", "cartoon", "bicarbonate", " car", "car\n", "123car", "!car.")
 
 #부분매칭    
 > grep( "car", a, value = T ) 
@@ -474,3 +589,26 @@ wordcloud(rownames(Freq.text), Freq.text$Freq, #여기까지만 하면 흑백으
                colors = brewer.pal(최대색상들, "Dark2") #팔레트 종류중 하나
               )
   ```
+
+- 연습문제 #3 <br>1. TEXT에 대해 bigram 생성<br>2. 빈도표 추출 <br>3. 빈도표 데이터프레임 변환 (컬럼명: bigrams, Freq)
+
+    <details>                   <!--문제#1 -->
+    <summary>답:</summary>
+    <div markdown="1">
+      ```R
+      > bigram <- paste(TEXT[1:length(TEXT)-1], TEXT[2:length(TEXT)], sep=" ")
+      > bigram.tab <- table(bigram)
+      > bi.grams <- data.frame(bi.grams = rownames(bigram.tab), Freq = as.vector(bigram.tab))
+      ``` 
+    </div></details>
+<br/>
+- 연습문제 #4 <br>bi.grams 활용하여 wordcloud 만들기
+  <details>                   <!--문제#1 -->
+  <summary>답:</summary>
+  <div markdown="1">
+    ```R
+    > wordcloud( bi.grams$bi.grams, bi.grams$Freq, scale = c(3, 0.8), 
+                 min.freq =2, max.words=90, random.order=F, 
+                rot.per = 0.4, color=brewer.pal(8, "Dark2"))
+    ``` 
+  </div></details>
