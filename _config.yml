@@ -57,6 +57,8 @@ menu:
   #   url:               /resume/
   - title:             Study Notes
     url:               /notes/
+  - title:             Today I Learned
+    url:               /til/
 
 
 # Add links to the footer.
