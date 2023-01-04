@@ -21,6 +21,14 @@ Don't Mind Trying Out New Things
 <!-- * [Data Analytics Basics]{:.heading.flip-title} --- Pandas and important basics -->
 * [R]{:.heading.flip-title} --- R Programming Language
 {:.related-posts.faded}
+
+
+
+## Artificial Intelligence
+<!-- * [Data Analytics Basics]{:.heading.flip-title} --- Pandas and important basics -->
+* [Introduction to Artificial Intelligence]{:.heading.flip-title} --- Introduction to Deep Learning
+{:.related-posts.faded}
+
 <!-- 
 ## Front-End
 * [React]{:.heading.flip-title} --- All I need to know about React
@@ -32,9 +40,8 @@ Don't Mind Trying Out New Things
 {:.related-posts.faded} -->
 
 
-[Computer Network]: ./ComputerScience/ComputerNetwork/README.md
-[Human Computer Interaction]: ./ComputerScience/HumanComputerInteraction/README.md
-[Software Engineering]: ./ComputerScience/SoftwareEngineering/README.md
+
+[Introduction to Artificial Intelligence]: ./ArtificialIntelligence/IntroductionToAI/README.md
 
 [Data Analytics Basics]: ./DataAnalytics/DataAnalyticsBasics/README.md
 [R]: ./DataAnalytics/R/README.md
