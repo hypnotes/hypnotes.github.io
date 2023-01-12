@@ -20,7 +20,7 @@ permalink: /notes/IntroductionToAI/MultinoialSoftmaxClassification
 
 ## Softmax Classification
 
-<br/><img src="../ArtificialIntelligence/IntroductionToAI/assets/6-new.png" alt="linearModel" style="height: 400px; width: auto;"/>
+<br/><img src="../ArtificialIntelligence/IntroductionToAI/assets/4-new.png" alt="linearModel" style="height: 400px; width: auto;"/>
 - Where should 🌟 be classified to ? (A, B, or C?)
 - only can be answered through Binary (0, 1) BUT you can ask a lot of questions
   - Q1) A or not A;  sig = 0.9 (> 0.5)
@@ -33,12 +33,12 @@ permalink: /notes/IntroductionToAI/MultinoialSoftmaxClassification
 - **Softmax Classification does not use Thresholds. Instead, only the MAX VALUE is recognized**
   - in case there are two or more same max values, one is picked randomly
 
-<br/><img src="../ArtificialIntelligence/IntroductionToAI/assets/6-ornot.png" alt="A,B,C" style="height: 300px; width: auto;"/>
+<br/><img src="../ArtificialIntelligence/IntroductionToAI/assets/4-ornot.png" alt="A,B,C" style="height: 300px; width: auto;"/>
 
 - instead of doing it three times, put it in matrix and just calculate once 
 - find maximum value from (A, B, C)
 
-<br/><img src="../ArtificialIntelligence/IntroductionToAI/assets/6-hotencoding.png" alt="과정" style="height: 300px; width: auto;"/>
+<br/><img src="../ArtificialIntelligence/IntroductionToAI/assets/4-hotencoding.png" alt="과정" style="height: 300px; width: auto;"/>
 
 - One-Hot Encoding (```argmax```) : change into vector form with one '1.0' 
 
@@ -59,7 +59,7 @@ permalink: /notes/IntroductionToAI/MultinoialSoftmaxClassification
 
 ## PyTorch implementation🔥
 
-<br/><img src="../ArtificialIntelligence/IntroductionToAI/assets/6-vectorrep.png" alt="과정" style="height: 300px; width: auto;"/>
+<br/><img src="../ArtificialIntelligence/IntroductionToAI/assets/4-vectorrep.png" alt="과정" style="height: 300px; width: auto;"/>
 
 
 ```py
