@@ -7,7 +7,6 @@ sitemap: false
 permalink: /notes/
 ---
 
-
 Don't Mind Trying Out New Things
 {:.note}
 
@@ -18,73 +17,48 @@ Don't Mind Trying Out New Things
 {:.related-posts.faded} -->
 
 ## Data Analytics
+
 <!-- * [Data Analytics Basics]{:.heading.flip-title} --- Pandas and important basics -->
-* [R]{:.heading.flip-title} --- R Programming Language
+
+- [Data Science]{:.heading.flip-title} --- COSE471 Class
+- [R]{:.heading.flip-title} --- R Programming Language
+- [Data Analytics Basics]{:.heading.flip-title} --- Data Analytics using Python
 {:.related-posts.faded}
-
-
 
 ## Artificial Intelligence
+
 <!-- * [Data Analytics Basics]{:.heading.flip-title} --- Pandas and important basics -->
-* [Introduction to Artificial Intelligence]{:.heading.flip-title} --- Introduction to Deep Learning
+
+- [Introduction to Artificial Intelligence]{:.heading.flip-title} --- Introduction to Deep Learning
 {:.related-posts.faded}
 
-<!-- 
+<!--
 ## Front-End
 * [React]{:.heading.flip-title} --- All I need to know about React
-{:.related-posts.faded}
+{:.related-posts.faded}-->
 
 ## Problem Solving
-* [Coding Test]{:.heading.flip-title} --- Algorithms and Datastructure
-* [BOJ]{:.heading.flip-title} --- 백준 문제풀이
-{:.related-posts.faded} -->
 
-
-
-[Introduction to Artificial Intelligence]: ./ArtificialIntelligence/IntroductionToAI/README.md
-
-[Data Analytics Basics]: ./DataAnalytics/DataAnalyticsBasics/README.md
-[R]: ./DataAnalytics/R/README.md
-
-[React]: ./Front-End/React/README.md
-
-[Coding Test]: ./CodingTest/README.md
-[BOJ]: ./BOJ/README.md
-
-
-<!-- 
-## Data Analytics
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
+- [Coding Test]{:.heading.flip-title} --- Algorithms and Datastructure
+  <!-- * [BOJ]{:.heading.flip-title} --- 백준 문제풀이 -->
 {:.related-posts.faded}
 
-
-## Using Hydejack
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
-* [Writing]{:.heading.flip-title} --- Producing markdown content for Hydejack.
-* [Scripts]{:.heading.flip-title} --- How to include 3rd party scripts on your site.
-* [Build]{:.heading.flip-title} --- How to build the static files for deployment.
-* [Advanced]{:.heading.flip-title} --- Guides for more advanced tasks.
+## Other Major
+- [Management Information Systems]{:.heading.flip-title} --- Business Major
 {:.related-posts.faded}
 
-## Other
-* [LICENSE]{:.heading.flip-title} --- The license of this project.
-* [NOTICE]{:.heading.flip-title} --- Parts of this program are provided under separate licenses.
-* [CHANGELOG]{:.heading.flip-title} --- Version history of Hydejack. -->
-<!-- {:.related-posts.faded}
+## Liberal Arts
 
-[install]: install.md
-[upgrade]: upgrade.md
-[config]: config.md
-[basics]: basics.md
-[writing]: writing.md
-[scripts]: scripts.md
-[build]: build.md
-[advanced]: advanced.md
-[LICENSE]: ../LICENSE.md
-[NOTICE]: ../NOTICE.md
-[CHANGELOG]: ../CHANGELOG.md -->
+- [Man and Food]{:.heading.flip-title} --- 인간과 식량
+{:.related-posts.faded}
 
+[introduction to artificial intelligence]: ./ArtificialIntelligence/IntroductionToAI/README.md
+[data analytics basics]: ./DataAnalytics/DataAnalyticsBasics/README.md
+[r]: ./DataAnalytics/R/README.md
+[react]: ./Front-End/React/README.md
+[coding test]: ./CodingTest/README.md
+[boj]: ./BOJ/README.md
+[Data Science]: ./DataAnalytics/DataScience/README.md
 
-
+[Management Information Systems]: ./OtherMajors/ManagementInformationSystems/README.md
+[Man and Food]: ./LiberalArts/ManAndFood/README.md
