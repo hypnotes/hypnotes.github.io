@@ -6,7 +6,7 @@ permalink: /notes/ManAndFood
 last_modified_at: 2023-04-20
 ---
 
-### 경영정보시스템 (BUSS215)
+### 인간과식량 (GEST045)
 
 > All Credit goes to 서용원 교수님 of 식품생명공학과 (GEST045)
 
