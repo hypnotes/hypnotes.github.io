@@ -9,7 +9,7 @@ author1:
     tryingout new stuff.
 
   picture:
-    path:            ../../assets/profile.jpg
+    path:            ../../assets/profile.png
     ## srcset is optional, but can be used to provide higher res versions for retina displays
     # srcset:
     #   1x:            https://placehold.it/128x128

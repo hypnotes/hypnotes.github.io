@@ -4,7 +4,7 @@
 basics:
   name: "Ha Yeong Park"
   label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
+  picture: "../../assets/profile.png"
   email: ""
   phone: "(+82) 010-8243-1311"
   website: "https://hypnotes/github.io"

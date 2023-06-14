@@ -18,7 +18,24 @@ fontcolor {
 cb { // color - bold
     color: #b08adf;
     font-weight: bold;
+    display: inline;
 }
+
+redcolor { // color - bold
+    color: red;
+    display: inline-flex;
+}
+
+bluecolor { // color - bold
+    color: skyblue;
+    display: inline;
+}
+
+greencolor { // color - bold
+    color: greenyellow;
+    display: inline;
+}
+
 
 fade {
     color: #9f9f9f
