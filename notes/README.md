@@ -16,21 +16,18 @@ Don't Mind Trying Out New Things
 * [Software Engineering]{:.heading.flip-title} --- PM, QA, Programmer
 {:.related-posts.faded} -->
 
-## Data Analytics
+## Data Analytics & Artificial Intelligence
 
 <!-- * [Data Analytics Basics]{:.heading.flip-title} --- Pandas and important basics -->
 
-- [Data Science]{:.heading.flip-title} --- COSE471 Class
 - [R]{:.heading.flip-title} --- R Programming Language
-- [Data Analytics Basics]{:.heading.flip-title} --- Data Analytics using Python
-{:.related-posts.faded}
-
-## Artificial Intelligence
-
-<!-- * [Data Analytics Basics]{:.heading.flip-title} --- Pandas and important basics -->
-
 - [Introduction to Artificial Intelligence]{:.heading.flip-title} --- Introduction to Deep Learning
+- [Data Science]{:.heading.flip-title} --- COSE471 Class
 {:.related-posts.faded}
+<!-- - [Data Analytics Basics]{:.heading.flip-title} --- Data Analytics using Python
+{:.related-posts.faded} -->
+
+
 
 <!--
 ## Front-End
