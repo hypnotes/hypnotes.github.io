@@ -21,6 +21,14 @@ last_modified_at: 2023-04-21
 - [06 Modeling]{:.heading.flip-title} --- Hmm
 - [07 Learning Problem]{:.heading.flip-title} --- Hmm
 - [08 Linear Regression]{:.heading.flip-title} --- Hmm
+- [09 Logistic Regression]{:.heading.flip-title} --- Hmm
+- [10 Optimization]{:.heading.flip-title} --- Hmm
+- [11 Regularization]{:.heading.flip-title} --- Hmm
+- [12 Decision Trees]{:.heading.flip-title} --- Hmm
+- [13 Clustering]{:.heading.flip-title} --- Hmm
+- [14 Big Data]{:.heading.flip-title} --- Hmm
+
+
 {:.related-posts.faded}
 
 [01 Probability and Data Design]: ./_posts/2023-03-09-ProbabilityAndDataDesign.md
@@ -31,3 +39,9 @@ last_modified_at: 2023-04-21
 [06 Modeling]: ./_posts/2023-04-04-Modeling.md
 [07 Learning Problem]: ./_posts/2023-04-06-LearningProblem.md
 [08 Linear Regression]: ./_posts/2023-04-18-LinearRegression.md
+[09 Logistic Regression]: ./_posts/2023-05-04-LogisticRegression.md
+[10 Optimization]: ./_posts/2023-05-16-Optimization.md
+[11 Regularization]: ./_posts/2023-05-25-Regularization.md
+[12 Decision Trees]: ./_posts/2023-06-01-DecisionTrees.md
+[13 Clustering]: ./_posts/2023-06-08-Clustering.md
+[14 Big Data]: ./_posts/2023-06-13-BigData.md
