@@ -39,7 +39,7 @@ permalink: /notes/DataScience/Optimization
 - **Critical Points** (stationary points)
   - points with zero slope: $$\nabla _x f(x) = 0 $$ 
   - Derivative gives no info about which _direction_ to move
-  - Thress types: maxima, minima, saddle point
+  - Three types: maxima, minima, saddle point
   <img src="../DataAnalytics/DataScience/assets/10-criticalpoints.png" alt="supervised" style="height: 200px; width: auto;"/>
   - <cb>saddle point</cb>: both positive & negative curvature exist 
     - $$f(x)$$ $$=x_1^2-x_2^2$$ 
@@ -49,11 +49,11 @@ permalink: /notes/DataScience/Optimization
 - **use of second derivative**:
   1. characterize critical points
   2. measure curvature
-      <img src="../DataAnalytics/DataScience/assets/10-curvature.png" alt="supervised" style="height: 200px; width: auto;"/>
-
+    - <img src="../DataAnalytics/DataScience/assets/10-curvature.png" alt="supervised" style="height: 200px; width: auto;"/>
     - (i) negative curvature: $$f$$ decreases faster than gradient predicts
     - (ii) no curvature: predicted correctly
     - (iii) positive curvature: $$f$$ decreases slower than predicted $$\Rightarrow$$ eventually increases
+
   3. predict performance of an update in gradient based opt.
 
 - In Deep Learning: 
@@ -73,8 +73,7 @@ permalink: /notes/DataScience/Optimization
   <img src="../DataAnalytics/DataScience/assets/10-gdalgo.png" alt="supervised" style="height: 200px; width: auto;"/>
   - can obtain unbiased estimate of gradient ??? 
 
-- **sgd and its variants**
-  - $$N$$: total $ of examples
+- **sgd and its variants** ($$N$$: total # of examples)
   1. $$m=1$$: sgd
   2. $$1<m<N$$ : mini-batch sgd (typical $$m$$: 64, 128, 256, 512)
   3. $$m=N$$: batch gradient descent
@@ -113,9 +112,9 @@ permalink: /notes/DataScience/Optimization
 
 ### Exponentially Weighted Average (EWMA)
 
-- Given: time serires $$g_1, g_2, \cdots $$ 
+- Given: time series $$g_1, g_2, \cdots $$, **EWMA** : 
 $$ 
-v_t =  \begin{cases} g_1 & t=1 \\ \alpha v_{t-1}+(1-\alpha)g_t \end{cases}
+v_t =  \begin{cases} g_1 & t=1 \\ \alpha v_{t-1}+(1-\alpha)g_t & t> 1\end{cases}
 $$ 
 
 - $$v_t$$: EMWA at time $$t$$
@@ -140,7 +139,7 @@ $$
   - $$=\frac{g_t + \alpha g_{t-1}+\alpha ^2g_{t-2}+\cdots}{1+\alpha + \alpha ^2 + \cdots} \Rightarrow$$ weighted average formula
   - DENOMINATOR = effective number of observations: 
     - $$ 1+\alpha + \alpha ^2 + \cdots $$ = $$ \frac{1}{1-\alpha}$$ 
-  - bottom line : $$ v_t \approx $$ average over ????? last time points 
+  - bottom line : $$ v_t \approx $$ average over $$\frac{1}{1-\alpha}$$ last time points 
     - ex) $$a=0.9$$ : average over 1/(1-0.9) = 10 points
 
 - Effect of Smoothing Factor <img src="../DataAnalytics/DataScience/assets/10-smoothing.png" alt="supervised" style="height: 200px; width: auto;"/>
@@ -165,7 +164,9 @@ $$
   - can be combined to existing sgd variants
 - Common Algorithm: accumulates exponentially decaying moving average of past gradients $$\rightarrow$$ continue to move in that direction 
 - <img src="../DataAnalytics/DataScience/assets/10-momentum.png" alt="supervised" style="height: 200px; width: auto;"/>
-- Momentum applied to three forms of SGD <img src="../DataAnalytics/DataScience/assets/10-three.png" alt="supervised" style="height: 200px; width: auto;"/>
+- Momentum applied to three forms of SGD 
+  
+  <img src="../DataAnalytics/DataScience/assets/10-three.png" alt="supervised" style="height: 200px; width: auto;"/>
   - $$\theta$$ updated by linear combination of <span style="color: red">gradient</span> and <span style="color: greenyellow">velocity</span>
   - $$ \theta \leftarrow \theta - \epsilon($$ <span style="color: red">$$g$$</span>$$+ constant \cdot$$ <span style="color: greenyellow">v</span> $$)$$
 
@@ -182,7 +183,7 @@ $$
  
 ### Per-parameter Adaptive learning Rates
 
-- adaptively turn $$\epsilon$$ **for each paramter** 
+- adaptively turn $$\epsilon$$ **for each parameter** 
 - <img src="../DataAnalytics/DataScience/assets/10-perparameter.png" alt="nestrov" style="height: 200px; width: auto;"/>
 - <img src="../DataAnalytics/DataScience/assets/10-limit.png" alt="nestrov" style="height: 50px; width: auto;"/>
 - **goal**: move horizontally BUT huge vertical oscillations
@@ -194,7 +195,7 @@ $$
   - steep direction: slow down learning
   - gently sloped direction: speed up learing 
 - adjusts learning rates per parameter:
-  - $$ \epsilon _j = \frac{\epsilon}{\sqrt{\sum_{all \hspace{0.1cm}previous \hspace{0.1cm}iterations}(g_j \cdot g_j)}}
+  - $$ \epsilon _j =$$ $$\frac{\epsilon}{\sqrt{\sum_{all \hspace{0.1cm}previous \hspace{0.1cm}iterations}(g_j \cdot g_j)}}$$
   - $$\epsilon$$: global learning rate
   - $$\epsilon _j$$: learning rate of dimension $$j$$ (parameter $$\theta _j$$ )
   - $$g_j = \frac{\partial J(\theta)}{\partial \theta _j} $$ : gradient wrt dimension $$j$$ 
@@ -249,7 +250,7 @@ $$
   - $$f(x) \approx f(x_0) + ($$ <span style="color: #b08adf">$$x$$</span> $$ -x_0)f'(x_0) + \frac{1}{2}($$ <span style="color: #b08adf">$$x$$</span> $$-x_0)^2f''(x_0) $$
   - $$f'(x)$$ $$=f'(x_0)+(x-x_0)f''(x_0) $$ <fade>respect to x </fade>
   - $$ 0 = f'(x_0) + (x-x_0) f''(x_0) $$ <fade>set to zero</fade>
-  - $$ 0 = f'(x_0) + xf''(x_0) + x_0f''(x_0) $$ <fade>solve for x</fade>
+  - $$ 0 = f'(x_0) + xf''(x_0) - x_0f''(x_0) $$ <fade>solve for x</fade>
   - $$ xf''(x_0) =$$  $$x_0f''(x_0)-f'(x_0) $$
   - $$ x= x_0 - \frac{f'(x_0)}{f''(x_0)}, \hspace{1cm}  \longrightarrow x_0 - \frac{g}{H}$$
 

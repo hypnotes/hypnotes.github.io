@@ -201,30 +201,30 @@ $$
 
 - $$\Rightarrow$$ select hypothesis $$h$$ that **_maximizes_** this probability
 
-  - $$P(y_1\mid x_2)P(y_1\mid x_2)\cdots P(y_N\mid x_N) \Longrightarrow \Pi_{n=1}^{N} P(y_n\mid x_n)$$
+  - $$P(y_1\mid x_1)P(y_1\mid x_2)\cdots P(y_N\mid x_N) \Longrightarrow \Pi_{n=1}^{N} P(y_n\mid x_n)$$
   - getting all $$y_n$$'s from corresponding $$x_n$$'s
 
 - we can easily **_optimize/minimize_** if we change the maximum likelihood into log form
 
   - $$-\frac{1}{N}ln(\Pi_{n=1}^{N}  P(y_n \mid x_n)) = \frac{1}{N} \sum_{n=1}^N ln\frac{1}{P(y_n \mid x_n)}$$
-  - $$Rightarrow$$ negative log likelihood
+  - $$\Rightarrow$$ negative log likelihood
   - $$-\frac{1}{N}ln(\cdot)$$ <fade> = monotonically decreasing function</fade>
 
 - $$\frac{1}{N} \sum_{n=1}^N ln\frac{1}{\theta(yw^Tx)} $$
 
   - $$\frac{1}{N} \sum_{n=1}^N ln\begin{cases} h(x_n) & y_n = +1 \\ 1- h(x_n) & y_n = -1 \end{cases}$$
 
-  - $$ \frac{1}{N} \sum\_{n=1}^N {[\![ y_n = +1]\!] ln\frac{1}{h(x_n)} + [\![ y_n = -1]\!] ln\frac{1}{1-h(x_n)}}$$
+  - $$ \frac{1}{N} \sum_{n=1}^N {[\![ y_n = +1]\!] ln\frac{1}{h(x_n)} + [\![ y_n = -1]\!] ln\frac{1}{1-h(x_n)}}$$
 
 - back to $$E_{in}(w) = \frac{1}{N}\sum_{n=1}^{N}ln(1+e^{y_nw^Tx_n})$$
   <details>
   <summary>Proof</summary>
   <div markdown="1">
 
-  - substituting $$\theta(yw^Tx)$$, $$ \frac{1}{N} \sum\_{n=1}^N ln\frac{1}{\frac{e^{yw^x}}{1+e^{yw^x}}} $$
-  - = $$\frac{1}{N} \sum_{n=1}^N ln\frac{1+e^{yw^x}}{e^{yw^x}}$$
-  - = $$\frac{1}{N} \sum_{n=1}^N ln (1+e^{yw^x}) \cdot (e^{-yw^x})$$
-  - $$ \frac{1}{N} \sum\_{n=1}^N ln (1+e^{-yw^x})$$
+  - substituting $$\theta(yw^Tx)$$, $$ \frac{1}{N} \sum_{n=1}^N ln\frac{1}{\frac{e^{yw^Tx}}{1+e^{yw^Tx}}} $$
+  - = $$\frac{1}{N} \sum_{n=1}^N ln\frac{1+e^{yw^Tx}}{e^{yw^Tx}}$$
+  - = $$\frac{1}{N} \sum_{n=1}^N ln (1+e^{yw^Tx}) \cdot (e^{-yw^Tx})$$
+  - $$ \frac{1}{N} \sum_{n=1}^N ln (1+e^{-yw^Tx})$$
   - since $$e^0 = 1 $$
   - <img src="../DataAnalytics/DataScience/assets/9-equations.png" alt="equations" style="height: 200px; width: auto;"/>
 
@@ -273,9 +273,9 @@ $$
 1. intialize weights at time step t=0 to w(0)
 2. **for** t = 0,1,2...**do**
 3. $$\hspace{1cm}$$compute the gradient
-  - $$ \nabla E*{in}(w(t)) = \frac{1}{N}\sum*{n=1}^N \frac{y_nx_n}{1+e^{y_nw^T(t)x_n}} $$
+  - $$ \nabla E_{in}(w(t)) = \frac{1}{N}\sum_{n=1}^N \frac{y_nx_n}{1+e^{y_nw^T(t)x_n}} $$
 
-4. $$\hspace{1cm}$$ set the direction to move: $$v_t = - \nabla E_{in}((t))$$
+4. $$\hspace{1cm}$$ set the direction to move: $$v_t = - \nabla E_{in}(w(t))$$
 5. $$\hspace{1cm}$$ update weights: $$w(t+1) = w(t) + \alpha(v_t)$$
 6. $$\hspace{1cm}$$ iterate to next step until it is time to stop
 7. return final weights **w**
@@ -493,9 +493,10 @@ $$recall = \frac{TP}{TP+FN} $$
   - best possible AUC = 1
   - terrible AUC = 0.5 (randomly guessing)
   - model's AUC [0.5~1]
+
 ## Feature Engineering
 
-> the process of **thransforming raw features** into more **informative features** 
+> the process of **transforming raw features** into more **informative features** 
 
 <img src="../DataAnalytics/DataScience/assets/9-feature.jpg" alt="feature" style="height: 300px; width: auto;"/>
   

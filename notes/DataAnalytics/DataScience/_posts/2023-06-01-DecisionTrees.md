@@ -61,6 +61,7 @@ permalink: /notes/DataScience/DecisionTrees
   - start with empty tree $$\rightarrow$$ choose next best attribute $$\rightarrow$$ recurse $$\circlearrowleft$$
 
 - **Defining Best Feature**
+
 <img src="../DataAnalytics/DataScience/assets/12-bestfeature.gif" alt="nestrov" style="height: 200px; width: auto;"/>
 
 ### Node Entropy 
@@ -82,7 +83,7 @@ $$
   - **LOW** Entropy: more predictable $$\Rightarrow$$ Good!
   - **HIGH** Entropy: more unpredictble
 
-- Entropy: [0, 1]
+- Entropy
   - **0 Entropy**: data all in one class ($$-1log_2(1)=0$$)
     - ex: `[ 34, 0, 0 ]` $$\rightarrow p_0 = \frac{34}{34} = 1$$
     - $$-1 log_2 (1) = $$ <span style="color: #b08adf">$$0$$</span>
@@ -97,22 +98,22 @@ $$
     - $$C \cdot (\frac{1}{C}log_2(\frac{1}{C})) = -log_2(\frac{1}{C}) =$$ <span style="color: #b08adf">$$log_2(C)$$ </span>
 
 - **Weighted Entropy as a Loss Function**
-  - use it to decide hich split to take
+  - use it to decide which split to take
   - given 2 nodes ($$X, Y$$) with each $$N_1, N_2$$ samples: 
     - $$L=\frac{N_1S(X)+N_2S(Y)}{N_1+N_2}$$
     - $$\Longrightarrow$$ MIDTERM
 - **Defining Best Feature**
   - Choice #1: `width > 1.5`, child node entropies: $$entropy([50,46,2])=1.16$$, $$entropy([4,47])=0.4$$
-    - **Weighted Average**: $$\frac{99}{150}*1.16 + \frac{51}{150}*0.4$$ <span style="color: #b08adf">$$log_2(C)0.9$$ </span>
+    - **Weighted Average** = $$\frac{99}{150}*1.16 + \frac{51}{150}*0.4 =$$ <span style="color: #b08adf">$$0.9$$ </span>
     - <img src="../DataAnalytics/DataScience/assets/12-step1.png" alt="step1" style="height: 200px; width: auto;"/>
   - Choice #2: `length > 4`, child node entropies: $$entropy([50,9])=0.62$$, $$entropy([41,50])=0.99$$
-    - **Weighted Average**:<span style="color: #b08adf">$$0.84$$ </span> $$\Rightarrow$$ **Better than choice (1)**
+    - **Weighted Average** = <span style="color: #b08adf">$$0.84$$ </span> $$\Rightarrow$$ **Better than choice (1)**
     - <img src="../DataAnalytics/DataScience/assets/12-step2.png" alt="step1" style="height: 200px; width: auto;"/>
   - Choice #3: `width > 0.5`, child node entropies: $$entropy([2,50,50])=1.12$$, $$entropy([48])=0$$
-    - **Weighted Average**:<span style="color: #b08adf">$$0.76$$ </span> $$\Rightarrow$$ **Better than choice (2)**
+    - **Weighted Average** = <span style="color: #b08adf">$$0.76$$ </span> $$\Rightarrow$$ **Better than choice (2)**
     - <img src="../DataAnalytics/DataScience/assets/12-step3.png" alt="step1" style="height: 200px; width: auto;"/>
   - Choice #4: `width > 0.9`, child node entropies: $$entropy([50,50])=0.1$$, $$entropy([50])=0$$
-    - **Weighted Average**:<span style="color: #b08adf">$$0.66$$ </span> $$\Rightarrow$$ **Better than choice (3)**
+    - **Weighted Average** = <span style="color: #b08adf">$$0.66$$ </span> $$\Rightarrow$$ **Better than choice (3)**
     - <img src="../DataAnalytics/DataScience/assets/12-step4.png" alt="step1" style="height: 200px; width: auto;"/>
 
 - $$\Rightarrow$$ Traditional Decision Tree Generation Algorithm has overfitting issues
@@ -129,8 +130,7 @@ $$
 2. Pruning: Let trees grow fully, then cut off less usefuly branches 
   - set **validation set** before creating tree
   - if replacing node by its most common prediction has no impact on validation error, **don't split node**
-
-  - <img src="../DataAnalytics/DataScience/assets/12-pruning.png" alt="step1" style="height: 200px; width: auto;"/>
+  - <img src="../DataAnalytics/DataScience/assets/12-pruning.png" alt="step1" style="height: 400px; width: auto;"/>
   - if (1) and (2) does not have significan difference, prune
 
 ## Random Forests
@@ -163,18 +163,21 @@ $$
   - <img src="../DataAnalytics/DataScience/assets/12-dectree2.png" alt="bagging" style="height: 300px; width: auto;"/>
   - $$\Rightarrow$$ ***only use a sample of $$m$$ features at each split***
     - usually $$m=\sqrt{p}$$ for decision trees in classification ($$p$$: # of features)
-    - algorithm creates individual trees, each overfit in different way $$\Longrightarrow$$ 기대효과: overall forest has low variance
 
 ### Random Forest Algorithm
 
 - 2 hyperparameters: **T** and $$m$$ 
 
-1. Bootstrap training data **T** times. Fit decision tree each resample by:
+```
+1. Bootstrap training data 'T' times. Fit decision tree each resample by:
   - start with data in one node (until all nodes are pure)
   - pick impure node
-  - pick random subset of $$m$$ features $$\rightarrow$$ pick best feature $$x$$ and split value β  so that split loss is minimized <fade>(ex: x = petal_width, β = 0.8 => L=0.66)</fade>
+  - pick random subset of 'm' features 
+    → pick best feature 'x' and split value β  so that split loss is minimized 
+    (ex: x = petal_width, β = 0.8 => L=0.66)
   - split data into 2 nodes (x < β, x ≥ β)
-2. [predict] ask **T** decision trees for prediction and take majority vote
+2. [predict] ask T decision trees for prediction and take majority vote
+```
 
 - preventing growth, pruning, random forest $$\Rightarrow heuristics$$
   - not provably best/mathematically optimal 
@@ -184,7 +187,7 @@ $$
   1. Versatile (regression & classification 가능)
   2. Invariant to feature scaling and translation
   3. Automatic feature selection
-  4. Nonlienar decision boundaries without complicated feature engineering
+  4. nonlinear decision boundaries without complicated feature engineering
   5. 다른 nonlinear model보다 overfit 심하진 않음
   6. Example of **ensemble method**: combine knowledge of many simple models to create sophisticated model
   7. Example of **bootstrap**: reduce model variance

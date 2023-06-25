@@ -24,6 +24,7 @@ permalink: /notes/DataScience/Clustering
 
 ## K-Means Clustering Algorithm
 - most popular clustering approach
+
 1. pick arbitrary $$k$$, randomly place $$k$$ "centers", each a different color
 2. repeat until convergence:
   - ***color points*** according to the closest center
@@ -54,7 +55,7 @@ permalink: /notes/DataScience/Clustering
 1. <cb>Inertia</cb>: Sum of squared distance from each data point to its center
   - $$0.47^2 + 0.19^2+0.34^2 + 0.25^2 + 0.58^2 + 0.36^2 + 0.44^2$$ $$$$
   - lower the better 
-2. <cb>Distortion</cb>: weighted sum of squared distances from each data point to tis center
+2. <cb>Distortion</cb>: weighted Inertia
   - $$ \frac{0.472 + 0.192 + 0.342}{3} + \frac{0.252 + 0.582 + 0.362 + 0.442}{4}$$ $$$$
 
 <img src="../DataAnalytics/DataScience/assets/13-inertia.png" alt="inertia" style="height: 200px; width: auto;"/>
@@ -78,6 +79,7 @@ permalink: /notes/DataScience/Clustering
 
 ## Agglomerative Clustering
 - aka hierarchical clustering 
+
 <img src="../DataAnalytics/DataScience/assets/13-compare.png" alt="nestrov" style="height: 200px; width: auto;"/>
 
 - K-Means: minimize inertia
@@ -100,6 +102,7 @@ permalink: /notes/DataScience/Clustering
   - <img src="../DataAnalytics/DataScience/assets/13-hier.png" alt="hier" style="height: 200px; width: auto;"/>
 
 - More clustering Algorithms
+
 <img src="../DataAnalytics/DataScience/assets/13-others.png" alt="others" style="height: 400px; width: auto;"/>
 
 - 때에 따라 적절히 사용해야 함 (purple: better)
@@ -110,8 +113,7 @@ permalink: /notes/DataScience/Clustering
 2. PICK: ***Elbow Method***
   - plot inertia versus many different $$K$$ values
   - pick $$K$$ in elbow (하지만 데이터가 복잡하면 elbow없는 경우 다수)
-  - <img src="../DataAnalytics/DataScience/assets/13-elbow.png" alt="others" style="height: 200px; width: auto;"/>
-
+  - <img src="../DataAnalytics/DataScience/assets/13-elbow.png" alt="others" style="height: 300px; width: auto;"/>
 3. EVALUATE: ***Silhouette Scores***
   - check how **"well clustered"**
   - <img src="../DataAnalytics/DataScience/assets/13-sil.png" alt="others" style="height: 300px; width: auto;"/>
@@ -120,25 +122,16 @@ permalink: /notes/DataScience/Clustering
   - for data point $$X$$, score $$S$$:
     - $$A$$: avg distance to other points in cluster (intra)
     - $$B$$: avg distance to points in closest cluster (inter)
-    - $$S$$ $$=\frac{B-A}{max(A,B)} $$
+    - $$S=\frac{B-A}{max(A,B)}$$
   - Observations: 
     - highest possible $$S$$ = **1** (all points in $$X$$'s cluster on top of $$X$$)
     - $$S$$ can be **negative** when $$X$$'s avg distance within cluster $$>$$ avg distance to nearby cluster ($$A > B $$)
       - ex: Low Score on graph has $$S=-0.13$$
-
     - <img src="../DataAnalytics/DataScience/assets/13-avg.png" alt="others" style="height: 300px; width: auto;"/>
       - points with large silhouette widths = deeply inside cluster
-
 4. Real World Metrics
   - Perform 2 clusterings, for example:
     1. cluster heights & weights of customers with $$K=3$$ to design `[ S, M, L ]` t-shirts
     2. cluster heights & weights of customers with $$K=5$$ to design `[ XS, S, M, L, XL ]` shirts
+
   - Out of 2 different $$K$$s, pick one that maximizes profit
-  
-
-<details>
-  <summary>Full algorithm</summary>
-  <div markdown="1">
-
-  <img src="../DataAnalytics/DataScience/assets/11-noise.png" alt="nestrov" style="height: 200px; width: auto;"/>
-</div></details>

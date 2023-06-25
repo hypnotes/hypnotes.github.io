@@ -24,11 +24,8 @@ permalink: /notes/DataScience/Regularization
 ### Overfitting
 
 - consequences:
-
   1. Fitting observation (training error, $$E_{in}$$) no longer indicates decent test error ($$E_{out}$$)
-
-  - $$E_{in} \approx E_{out} \leftarrow$$best
-
+    - $$E_{in} \approx E_{out} \leftarrow$$best
   2. $$E_{in}$$ no longer good guide for learning
 
 - observed when:
@@ -117,7 +114,8 @@ permalink: /notes/DataScience/Regularization
   - parameter  $$\lambda \leftarrow$$ **principled** :
     - 주로 depends on data
     - overdose $$\Rightarrow$$ underfitting (validation이 알려줄 것임)
-    <img src="../DataAnalytics/DataScience/assets/11-overdose.png" alt="overdose" style="height: 100px; width: auto;"/>
+
+    <img src="../DataAnalytics/DataScience/assets/11-overdose.png" alt="overdose" style="height: 200px; width: auto;"/>
 
 ## Regularization Techniques
 
@@ -160,7 +158,7 @@ permalink: /notes/DataScience/Regularization
 
 - **Elastic-net penalty** 
   - lasso ($$\alpha = 1$$ ) + ridge ($$\alpha = 0$$ )
-  - $$\Omega(w) = \sum _q {\alpha \mid w_q \mid -+ \frac{1}{2}(1-\alpha)  w^2_q} $$
+  - $$\Omega(w) = \sum _q {\alpha \mid w_q \mid + \frac{1}{2}(1-\alpha)  w^2_q} $$
 
 - Comparisons
   - <img src="../DataAnalytics/DataScience/assets/11-parameters.png" alt="parameters" style="height: 400px; width: auto;"/>
@@ -182,7 +180,7 @@ permalink: /notes/DataScience/Regularization
 2. Algorithm terminate when no improvement in $$E_{val}$$
 
 - Advantages:
-  - unnoticeable (weight decay: $$E_{in}-\Omega(w) $$ 중 $$Omega(w)$$ 가 없는 셈)
+  - unnoticeable (weight decay: $$E_{in}-\Omega(w) $$ 중 $$\Omega(w)$$ 가 없는 셈)
   - Early Stop $$\Rightarrow$$ fewer epochs $$\Rightarrow$$ computational savings
   - leave extra data for additional training
 - Disadvantages:
@@ -203,7 +201,7 @@ permalink: /notes/DataScience/Regularization
 
 - aka 'model averaging'
 - **strong**: better bias/variance/accuracy
-  - <img src="../DataAnalytics/DataScience/assets/11-varbias.png" alt="parameters" style="height: 300px; width: auto;"/>
+  - <img src="../DataAnalytics/DataScience/assets/11-varbias.jpg" alt="variables" style="height: 300px; width: auto;"/>
 
 
 - Assumption: 
@@ -214,19 +212,18 @@ permalink: /notes/DataScience/Regularization
 2. <cb>Bagging</cb>
   - bootstrap aggregating 의 약자 
   - improve model's **variance** but not bias
-  - <img src="../DataAnalytics/DataScience/assets/11-bagging.png" alt="parameters" style="height: 300px; width: auto;"/>
-
+  - <img src="../DataAnalytics/DataScience/assets/11-bagging.png" alt="bagging" style="height: 300px; width: auto;"/>
   - train seperately $$\Longrightarrow$$ combine outputs by averaging
     - make $$k$$ different datasets (random sampling)
     - reduce same model/training algo/obj function $$\Rightarrow$$ training different models
 
 3. <cb>Boosting</cb>
+
   - constructs an ensemble with higher capacity than individual models 
     - meta-algo for primarily reducing bias & variance 
     - most famous: `AdaBoost`
   - train multiple weak learners **sequentially** to get stronger learner
-    - <img src="../DataAnalytics/DataScience/assets/11-boosting.png" alt="parameters" style="height: 300px; width: auto;"/>
-
+    - <img src="../DataAnalytics/DataScience/assets/11-boosting.jpg" alt="boosting" style="height: 300px; width: auto;"/>
     - future learners: 잘못 분류한 데이터에 더 집중함 (by reweighting training examples with prev learning results)
   - boosting in NN: 
     - incrementally add Neural Nets to the ensemble
