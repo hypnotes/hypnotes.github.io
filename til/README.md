@@ -6,24 +6,31 @@ sitemap: false
 permalink: /til/
 ---
 
-* this list will be replaced by the toc
+- this list will be replaced by the toc
 {:toc .large-only}
 
-[What should I learn?]
+[What should I learn?](./bucketlist.md)
 
-[What should I learn?]: ./bucketlist.md
+## June
 
-## January
+| $$~~$$ Sun $$~~$$ | $$~~$$ Mon $$~~$$ | $$~~$$ Tue $$~~$$ | $$~~$$ Wed $$~~$$ | $$~~$$ Thu $$~~$$ | $$~~$$ Fri $$~~$$ | $$~~$$ Sat $$~~$$ |
+| :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
+|    [25][0625]     |    [26][0626]     |    [27][0627]     |    [28][0628]     |    [29][0629]     |    [30][0630]     |  <fade>1</fade>   |
 
-| &nbsp;&nbsp;&nbsp;&nbsp; Sun  &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; Mon &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; Tues &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; Wed &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; Thur &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; Fri &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; Sat &nbsp;&nbsp;&nbsp;&nbsp; |
-|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|[1]   |[2]     |3     |4     |5     |6     |7     |
-|8     |9     |10    |11    |12    |13    |14    |
-|15    |16    |17    |19    |19    |20    |21    |
-|22    |23    |24    |25    |26    |27    |28    |
-|29    |30    |31    |
+[0625]: ./_posts/2023-06-01-June.md/#june-25th
+[0626]: ./_posts/2023-06-01-June.md/#june-26th
+[0627]: ./_posts/2023-06-01-June.md/#june-27th
+[0628]: ./_posts/2023-06-01-June.md/#june-28th
+[0629]: ./_posts/2023-06-01-June.md/#june-29th
+[0630]: ./_posts/2023-06-01-June.md/#june-30th
 
-[1]: ./_posts/2023-01-01-Jan.md#jan-01
-[2]: ./_posts/2023-01-01-Jan.md#jan-02
+## July
 
-## February
+| $$~~$$ Sun $$~~$$ | $$~~$$ Mon $$~~$$ | $$~~$$ Tue $$~~$$ | $$~~$$ Wed $$~~$$ | $$~~$$ Thu $$~~$$ | $$~~$$ Fri $$~~$$ | $$~~$$ Sat $$~~$$ |
+| :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
+|  <fade>26</fade>  |  <fade>27</fade>  |  <fade>28</fade>  |  <fade>29</fade>  |  <fade>30</fade>  |         1         |
+|         2         |         3         |         4         |         5         |         6         |         7         |         8         |
+|         9         |        10         |        11         |        12         |        13         |        14         |        15         |
+|        16         |        17         |        19         |        19         |        20         |        21         |        22         |
+|        23         |        24         |        25         |        26         |        27         |        28         |        29         |
+|        30         |        31         |
