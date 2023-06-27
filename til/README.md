@@ -19,7 +19,7 @@ permalink: /til/
 
 [0625]: ./_posts/2023-06-01-June.md/#625-markdown-links
 [0626]: ./_posts/2023-06-01-June.md/#626-npm-vs-yarn
-[0627]: ./_posts/2023-06-01-June.md/#june-27th
+[0627]: ./_posts/2023-06-01-June.md/#627-prefix-sum-2-pointer
 [0628]: ./_posts/2023-06-01-June.md/#june-28th
 [0629]: ./_posts/2023-06-01-June.md/#june-29th
 [0630]: ./_posts/2023-06-01-June.md/#june-30th
@@ -28,7 +28,7 @@ permalink: /til/
 
 | $$~~$$ Sun $$~~$$ | $$~~$$ Mon $$~~$$ | $$~~$$ Tue $$~~$$ | $$~~$$ Wed $$~~$$ | $$~~$$ Thu $$~~$$ | $$~~$$ Fri $$~~$$ | $$~~$$ Sat $$~~$$ |
 | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
-|  <fade>26</fade>  |  <fade>27</fade>  |  <fade>28</fade>  |  <fade>29</fade>  |  <fade>30</fade>  |         1         |
+|  <fade>25</fade>  |  <fade>26</fade>  |  <fade>27</fade>  |  <fade>28</fade>  |  <fade>29</fade>  |  <fade>30</fade>  |         1         |
 |         2         |         3         |         4         |         5         |         6         |         7         |         8         |
 |         9         |        10         |        11         |        12         |        13         |        14         |        15         |
 |        16         |        17         |        19         |        19         |        20         |        21         |        22         |
