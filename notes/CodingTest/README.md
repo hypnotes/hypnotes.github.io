@@ -1,7 +1,6 @@
 ---
 title: Coding Test Preperation in Python
 description: >
-  Here you should be able to find everything you need to know to accomplish the most common tasks when blogging with Hydejack.
 hide_description: true
 sitemap: false
 permalink: /notes/CodingTest
@@ -11,22 +10,25 @@ permalink: /notes/CodingTest
 
 > All Credit goes to [ZeroBase](https://zero-base.co.kr/)
 
-
 ## Data Structures
-* [Queue]{:.heading.flip-title} --- Queues, Priority Queues, etc.
-* [Stack]{:.heading.flip-title} --- LIFO
-{:.related-posts.faded}
+
+* [Arrays]{:.heading.flip-title} --- Queues, Priority Queues, etc.
 
 ## Algorithms
-* [Sorting]{:.heading.flip-title} --- Lists, Linked Lists, etc.
+* [Sorting]{:.heading.flip-title} --- Bubble, Selection, Insertion, Quick Sorts
 * [DFS, BFS]{:.heading.flip-title} --- Queues, Priority Queues, etc.
-{:.related-posts.faded}
+* [Space Complexity]{:.heading.flip-title} --- What is Space complexity
+* [Dynamic Programming]{:.heading.flip-title} --- All of them
 
 
-[Queue]: ./DataStructures/_posts/2022-09-02-Queue.md
-[Stack]: ./DataStructures/_posts/2022-08-27-Stack.md
+[Arrays]: ./DataStructures/_posts/2023-06-27-Arrays.md
 
 
 [Sorting]: ./Algorithms/_posts/2022-08-20-Sorting.md
 [DFS, BFS]: ./Algorithms/_posts/2022-08-27-DFS-BFS.md
+[Space Complexity]: ./Algorithms/_posts/2023-01-26-Spacecomplexity.md
+[Dynamic Programming]: ./Algorithms/_posts/2023-06-26-DP.md
+
+
+
 
