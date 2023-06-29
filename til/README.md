@@ -4,6 +4,7 @@ description: >
   매일 배우고 기록하는 습관 들이기
 sitemap: false
 permalink: /til/
+accent_image: /../assets/default-white.jpg
 ---
 
 - this list will be replaced by the toc
@@ -15,13 +16,12 @@ permalink: /til/
 
 | $$~~$$ Sun $$~~$$ | $$~~$$ Mon $$~~$$ | $$~~$$ Tue $$~~$$ | $$~~$$ Wed $$~~$$ | $$~~$$ Thu $$~~$$ | $$~~$$ Fri $$~~$$ | $$~~$$ Sat $$~~$$ |
 | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: |
-|    [25][0625]     |    [26][0626]     |    [27][0627]     |    [28][0628]     |    [29][0629]     |    [30][0630]     |  <fade>1</fade>   |
+|    25<br/>[MD Links]     |    26<br/>[NPM Yarn]     |    27<br/>[Prefix Sum]     |    28     |    29<br/>[AJAX]     |    30<br/>[0630]     |  <fade>1</fade>   |
 
-[0625]: ./_posts/2023-06-01-June.md/#625-markdown-links
-[0626]: ./_posts/2023-06-01-June.md/#626-npm-vs-yarn
-[0627]: ./_posts/2023-06-01-June.md/#627-prefix-sum-2-pointer
-[0628]: ./_posts/2023-06-01-June.md/#june-28th
-[0629]: ./_posts/2023-06-01-June.md/#june-29th
+[MD Links]: ./_posts/2023-06-01-June.md/#625-markdown-links
+[NPM Yarn]: ./_posts/2023-06-01-June.md/#626-npm-vs-yarn
+[Prefix Sum]: ./_posts/2023-06-01-June.md/#627-prefix-sum-2-pointer
+[AJAX]: ./_posts/2023-06-01-June.md/#629-ajax
 [0630]: ./_posts/2023-06-01-June.md/#june-30th
 
 ## July
