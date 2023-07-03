@@ -57,6 +57,8 @@ menu:
     url:               /til/
   - title:             Projects
     url:               /projects/
+  - title:             Books
+    url:               /books/
 
 
 # Add links to the footer.
@@ -306,6 +308,9 @@ collections:
     permalink:         /projects/:path/
     output:            true
 
+  books:
+    permalink:         /books/:path/
+    output:            true
 
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------

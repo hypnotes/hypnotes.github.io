@@ -3,19 +3,18 @@
 layout: grid
 
 # The title of the tag's page.
-title: Example
+title: books
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: example
+slug: books
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+  This is for books that I'm about to read and take notes about
 
 # (Optional) You can disable grouping posts by date.
 no_groups: true
-
+menu: true
 # Exclude this example category from the sitemap.
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
