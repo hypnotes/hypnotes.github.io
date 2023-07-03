@@ -1,6 +1,7 @@
 ---
 title: What should I learn?
-description: >
+description: > 
+    My Bucketlist
 hide_description: true
 sitemap: false
 permalink: /til/bucketlist
@@ -10,34 +11,46 @@ last_modified_at: 2022-12-01
 * this list will be replaced by the toc
 {:toc .large-only}
 
-**in bold** : perhaps the whole course
+## 알고리즘
+- 이분탐색
+- 그냥 모든 탐색!!!
+- DFS, BFS
+- DP 
 
-## Basics
+## TIL 내용
+- Bottleneck, 보일러 플레이트, 애드혹 등 용어
+- framework, library, module 의 차이점 및 require /import 차이점 
+- OOP vs Functional Programming
+- Restful API
+- React hooks 
+- Jeykll bundle, tags, categories, slug ...etc
+    ```
+    jekyll serve --incremental --livereload
+    와
+    bundle exec jekyll serve 
+    의 차이점
+    ```
+- Git commands review + stash, ignore, blame
+- SSH keys, PTA tokens (GIT)
+- dependencies vs dev dependencies
+- JWT vs Session Caching
+- passport
+- debuggin tips
+- backend: ctrl, service, repository
+- class validator
+- node js, spring, express, nest, firebase..etc
+- typescript!! 
+- TypeORM
 
-- OOP vs Functional, overriding
-- framework, library, API, class, module 용어?
-- refactoring 
+## 책 
 
-## FrontEnd
+- JS Deep Dive
+- Refactoring 
+- Clean Code 
 
-✔️ **JavaScript in depth**
-✔️ React Hooks 
 
-## BackEnd
+## CS  
 
-✔️ **Nest.js Course (Nomad Coders)**
-✔️ **Typescript**
-✔️ Express Js
-✔️ Rest API
-✔️ Node Js, NPM 
-
-## Majors 
-
-✔️ OS (threads, soforth for FrontEnd)
-✔️ Computer Network 
-
-## Programming
-
-## Terms
-
-- scaffold..etc
+- [이거 해볼까...](https://fastcampus.co.kr/dev_online_upjscodingtest)
+- OS (threads, soforth for FrontEnd)
+- Computer Network 
