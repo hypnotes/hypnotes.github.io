@@ -5,6 +5,7 @@ caption: 꼭 읽으라고 추천받아서 조만간 시작해봄
 description: >
   TEST
 hide_description: true
+date:   3 Aug 2023
 image: 
   path: /assets/img/books/refactoring/title.jpg
 categories: books

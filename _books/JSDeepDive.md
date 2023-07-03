@@ -6,7 +6,7 @@ description: >
   Service that provides all the information about clubs in Korea Univ.
 image: 
   path: /assets/img/books/jsdeepdive/title.jpg
-date: Jun 28 2023
+date:   10 Jul 2023
 categories: books
 links:
   - title: YES24

@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Corpus
+title: R Fundamentals
 description: >
   Fundamentals of Corpus Knowledge
 # image: /assets/img/blog/example-content-ii.jpg
 sitemap: false
-permalink: /notes/R/RFundamentals
+# permalink: /notes/R/RFundamentals
+categories: r
 ---
 
 * this list will be replaced by the toc

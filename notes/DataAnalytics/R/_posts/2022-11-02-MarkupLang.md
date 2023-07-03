@@ -6,6 +6,7 @@ description: >
 # image: /assets/img/blog/example-content-ii.jpg
 sitemap: false
 permalink: /notes/R/Markup
+categories: r
 ---
 
 * this list will be replaced by the toc

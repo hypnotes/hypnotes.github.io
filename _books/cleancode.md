@@ -2,6 +2,7 @@
 layout: project
 title: Clean Code
 caption: 1일1장 도전
+date:   3 Jul 2023
 description: >
   TEST
 hide_description: true
@@ -30,4 +31,4 @@ sitemap: false
 - [Chapter 1]{:.heading.flip-title} --- Clean Code
 {:.related-posts.faded}
 
-[Chapter 1]: ./cleancode/2023-07-03-Chapter1.md
+[Chapter 1]: ../booknotes/cleancode/2023-07-03-Chapter1.md
