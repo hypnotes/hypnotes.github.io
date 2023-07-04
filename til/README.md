@@ -29,7 +29,7 @@ accent_image: /../assets/default-white.jpg
 | $$~~$$ Sun $$~~$$ | $$~~$$ Mon $$~~$$ | $$~~$$ Tue $$~~$$ | $$~~$$ Wed $$~~$$ | $$~~$$ Thu $$~~$$ | $$~~$$ Fri $$~~$$ |  $$~~$$ Sat $$~~$$  |
 | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :-----------------: |
 |  <fade>25</fade>  |  <fade>26</fade>  |  <fade>27</fade>  |  <fade>28</fade>  |  <fade>29</fade>  |  <fade>30</fade>  | 1<br/>[React Query] |
-|         2<br/>[Recoil]         |         3<br/>[IT 용어]         |         4         |         5         |         6         |         7         |          8          |
+|  2<br/>[Recoil]   |   3<br/>[IT 용어] | 4 <br/>[Rest]|         5         |         6         |         7         |          8          |
 |         9         |        10         |        11         |        12         |        13         |        14         |         15          |
 |        16         |        17         |        19         |        19         |        20         |        21         |         22          |
 |        23         |        24         |        25         |        26         |        27         |        28         |         29          |
@@ -37,4 +37,5 @@ accent_image: /../assets/default-white.jpg
 
 [React Query]: ./_posts/2023-07-01-July.md/#71-react-query
 [Recoil]: ./_posts/2023-07-01-July.md/#72-recoil
-[IT 용어]: ./_posts/2023-07-01-July.md/#73-IT-Terms
+[IT 용어]: ./_posts/2023-07-01-July.md/#73-it-terms
+[Rest]: ./_posts/2023-07-01-July.md/#74-rest

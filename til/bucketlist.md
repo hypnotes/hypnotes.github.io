@@ -18,7 +18,8 @@ last_modified_at: 2022-12-01
 - DP 
 
 ## TIL 내용
-- Bottleneck, 보일러 플레이트, 애드혹 등 용어
+
+- 깃헙 SEO, 댓글...
 - framework, library, module 의 차이점 및 require /import 차이점 
 - OOP vs Functional Programming
 - Restful API
