@@ -2,17 +2,14 @@
 layout: project
 title: Clean Code
 caption: 1일1장 도전
-date:   3 Jul 2023
 description: >
-  TEST
+  Why we need to write codes cleanly
 hide_description: true
 image: 
   path: /assets/img/books/cleancode/title.png
-categories: [books, cleancode ]
 links:
   - title: YES24
     url: https://www.yes24.com/Product/Goods/11681152
-date: 29 Jun 2023
 accent_color: '#D0C8B6'
 accent_image: 
   background: '#E2DAD5'
@@ -29,6 +26,8 @@ sitemap: false
 ## Chapters 
 
 - [Chapter 1]{:.heading.flip-title} --- Clean Code
+- [Chapter 2]{:.heading.flip-title} --- Naming Convention
 {:.related-posts.faded}
 
-[Chapter 1]: ../booknotes/cleancode/2023-07-03-Chapter1.md
+[Chapter 1]: ../booknotes/cleancode/_posts/2023-07-03-Chapter1.md
+[Chapter 2]: ../booknotes/cleancode/_posts/2023-07-04-Chapter2.md
