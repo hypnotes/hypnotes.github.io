@@ -4,6 +4,7 @@ description: >
     My Bucketlist
 hide_description: true
 sitemap: false
+categories: til
 permalink: /til/bucketlist
 last_modified_at: 2022-12-01
 ---
@@ -42,6 +43,7 @@ last_modified_at: 2022-12-01
 - node js, spring, express, nest, firebase..etc
 - typescript!! 
 - TypeORM
+- React Suspense
 
 ## 책 
 
