@@ -1,6 +1,6 @@
 ---
 layout: project
-title: JS Deep Dive
+title: Refactoring
 caption: 개발자 필독서...!
 description: >
   TEST
