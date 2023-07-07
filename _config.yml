@@ -54,7 +54,7 @@ menu:
   - title:             Study Notes
     url:               /notes/
   - title:             Today I Learned
-    url:               /til/2023/
+    url:               /til/
   - title:             Projects
     url:               /projects/
   - title:             Books
@@ -285,7 +285,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         categories/:name/
     output:            true
 
   featured_tags:

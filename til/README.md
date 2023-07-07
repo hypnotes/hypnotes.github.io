@@ -3,7 +3,7 @@ title: YEAR 2023
 description: >
   매일 배우고 기록하는 습관 들이기
 sitemap: false
-permalink: /til/2023/
+permalink: /til/
 accent_image: /../assets/default-white.jpg
 ---
 
