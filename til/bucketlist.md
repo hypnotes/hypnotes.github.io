@@ -20,6 +20,7 @@ last_modified_at: 2022-12-01
 
 ## TIL 내용
 
+- server side rendering
 - 깃헙 SEO, 댓글...
 - framework, library, module 의 차이점 및 require /import 차이점 
 - OOP vs Functional Programming
