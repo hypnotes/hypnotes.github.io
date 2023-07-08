@@ -29,7 +29,7 @@ accent_image: /../assets/default-white.jpg
 | $$~~$$ Sun $$~~$$ | $$~~$$ Mon $$~~$$ | $$~~$$ Tue $$~~$$ | $$~~$$ Wed $$~~$$ | $$~~$$ Thu $$~~$$ | $$~~$$ Fri $$~~$$ |  $$~~$$ Sat $$~~$$  |
 | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :---------------: | :-----------------: |
 |  <fade>25</fade>  |  <fade>26</fade>  |  <fade>27</fade>  |  <fade>28</fade>  |  <fade>29</fade>  |  <fade>30</fade>  | 1<br/>[React Query] |
-|  2<br/>[Recoil]   |   3<br/>[IT 용어] | 4 <br/>[Rest]|         5         |         6<br/>[Error Boundary]         |         7<br/>[Rest Api]        |          8          |
+|  2<br/>[Recoil]   |   3<br/>[IT 용어] | 4 <br/>[Rest]|         5         |         6<br/>[Error Boundary]         |         7<br/>[Rest Api]        |          8<br/>[Test with Jest]          |
 |         9         |        10         |        11         |        12         |        13         |        14         |         15          |
 |        16         |        17         |        19         |        19         |        20         |        21         |         22          |
 |        23         |        24         |        25         |        26         |        27         |        28         |         29          |
@@ -41,3 +41,4 @@ accent_image: /../assets/default-white.jpg
 [Rest]: ./_posts/2023-07-01-July.md/#74-rest
 [Error Boundary]: ./_posts/2023-07-01-July.md/#76-error-boundary
 [Rest Api]: ./_posts/2023-07-01-July.md/#77-rest-api
+[Test with Jest]: ./_posts/2023-07-01-July.md/#78-test-with-jest
