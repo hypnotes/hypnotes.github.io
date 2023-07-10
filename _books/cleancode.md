@@ -27,7 +27,9 @@ sitemap: false
 
 - [Chapter 1]{:.heading.flip-title} --- Clean Code
 - [Chapter 2]{:.heading.flip-title} --- Naming Convention
+- [Chapter 4]{:.heading.flip-title} --- Naming Convention
 {:.related-posts.faded}
 
 [Chapter 1]: ../booknotes/cleancode/_posts/2023-07-03-Chapter1.md
 [Chapter 2]: ../booknotes/cleancode/_posts/2023-07-04-Chapter2.md
+[Chapter 4]: ../booknotes/cleancode/_posts/2023-07-10-Chapter4.md
