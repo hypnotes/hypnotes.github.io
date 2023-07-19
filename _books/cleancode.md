@@ -30,6 +30,7 @@ sitemap: false
 - [Chapter 3]{:.heading.flip-title} --- Functions
 - [Chapter 4]{:.heading.flip-title} --- Comments
 - [Chapter 5]{:.heading.flip-title} --- Formatting
+- [Chapter 6]{:.heading.flip-title} --- Objects and Data Structures
 {:.related-posts.faded}
 
 [Chapter 1]: ../booknotes/cleancode/_posts/2023-07-03-Chapter1.md
@@ -37,3 +38,4 @@ sitemap: false
 [Chapter 3]: ../booknotes/cleancode/_posts/2023-07-09-Chapter3.md
 [Chapter 4]: ../booknotes/cleancode/_posts/2023-07-10-Chapter4.md
 [Chapter 5]: ../booknotes/cleancode/_posts/2023-07-18-Chapter5.md
+[Chapter 6]: ../booknotes/cleancode/_posts/2023-07-19-Chapter6.md
