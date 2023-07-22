@@ -16,7 +16,7 @@ permalink: /notes/CodingTest
 
 ## Algorithms
 * [Sorting]{:.heading.flip-title} --- Bubble, Selection, Insertion, Quick Sorts
-* [DFS, BFS]{:.heading.flip-title} --- Queues, Priority Queues, etc.
+* [BFS, DFS]{:.heading.flip-title} --- Search Algorithms in Graphs
 * [Space Complexity]{:.heading.flip-title} --- What is Space complexity
 * [Dynamic Programming]{:.heading.flip-title} --- All of them
 
@@ -25,7 +25,7 @@ permalink: /notes/CodingTest
 
 
 [Sorting]: ./Algorithms/_posts/2022-08-20-Sorting.md
-[DFS, BFS]: ./Algorithms/_posts/2022-08-27-DFS-BFS.md
+[BFS, DFS]: ./Algorithms/_posts/2023-07-20-BFSDFS.md
 [Space Complexity]: ./Algorithms/_posts/2023-01-26-Spacecomplexity.md
 [Dynamic Programming]: ./Algorithms/_posts/2023-06-26-DP.md
 
