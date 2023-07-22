@@ -31,6 +31,8 @@ sitemap: false
 - [Chapter 4]{:.heading.flip-title} --- Comments
 - [Chapter 5]{:.heading.flip-title} --- Formatting
 - [Chapter 6]{:.heading.flip-title} --- Objects and Data Structures
+- [Chapter 7]{:.heading.flip-title} --- Error Handling
+- [Chapter 8]{:.heading.flip-title} --- Boundaries
 {:.related-posts.faded}
 
 [Chapter 1]: ../booknotes/cleancode/_posts/2023-07-03-Chapter1.md
@@ -39,3 +41,5 @@ sitemap: false
 [Chapter 4]: ../booknotes/cleancode/_posts/2023-07-10-Chapter4.md
 [Chapter 5]: ../booknotes/cleancode/_posts/2023-07-18-Chapter5.md
 [Chapter 6]: ../booknotes/cleancode/_posts/2023-07-19-Chapter6.md
+[Chapter 7]: ../booknotes/cleancode/_posts/2023-07-21-Chapter7.md
+[Chapter 8]: ../booknotes/cleancode/_posts/2023-07-22-Chapter8.md
