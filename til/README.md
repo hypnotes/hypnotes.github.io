@@ -32,7 +32,7 @@ accent_image: /../assets/default-white.jpg
 |  2<br/>[Recoil]   |   3<br/>[IT 용어] | 4 <br/>[Rest]|         5         |         6<br/>[Error Boundary]         |         7<br/>[Rest Api]        |          8<br/>[Test with Jest]          |
 |         9         |        10         |        11         |        12         |        13         |        14         |         15          |
 |        16         |        17<br/>[React Query II]         |        18<br/>[React Query III]         |        19<br/>[OOP Revisited]         |        20<br/>[BFS, DFS]         |        21        |         22<br/>[null vs undefined]          |
-|        23         |        24         |        25         |        26         |        27         |        28         |         29          |
+|        23         |        24         |        25<br/>[Framework and Libraries]         |        26         |        27         |        28         |         29          |
 |        30         |        31         |
 
 [React Query]: ./_posts/2023-07-01-July.md/#71-react-query
@@ -47,3 +47,4 @@ accent_image: /../assets/default-white.jpg
 [OOP Revisited]: ./_posts/2023-07-01-July.md/#719-oop-revisited
 [BFS, DFS]: ./_posts/2023-07-01-July.md/#720-bfs-dfs
 [null vs undefined]: ./_posts/2023-07-01-July.md/#722-null-vs-undefined
+[Imports and Libraries]: ./_posts/2023-07-01-July.md/#725-Framework-and-library
