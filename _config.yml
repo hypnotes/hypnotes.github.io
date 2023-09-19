@@ -53,6 +53,8 @@ menu:
   #   url:               /resume/
   - title:             Study Notes
     url:               /notes/
+  - title:             Frontend Topics
+    url:               /frontend/
   - title:             Today I Learned
     url:               /til/
   - title:             Projects
