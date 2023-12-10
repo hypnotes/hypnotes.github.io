@@ -42,6 +42,7 @@ Don't Mind Trying Out New Things
 
 ## Other Major
 - [Management Information Systems]{:.heading.flip-title} --- Business Major
+- [User Experience]{:.heading.flip-title} --- Industrial Engineering Major
 {:.related-posts.faded}
 
 ## Liberal Arts
@@ -58,4 +59,4 @@ Don't Mind Trying Out New Things
 [Data Science]: ./DataAnalytics/DataScience/README.md
 
 [Management Information Systems]: ./OtherMajors/ManagementInformationSystems/README.md
-[Man and Food]: ./LiberalArts/ManAndFood/README.md
+[Man and Food]: ./LiberalArts/ManAndFood/README.md[User Experience]: ./OtherMajors/UX/README.md
