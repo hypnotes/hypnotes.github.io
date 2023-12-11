@@ -60,3 +60,4 @@ Don't Mind Trying Out New Things
 
 [Management Information Systems]: ./OtherMajors/ManagementInformationSystems/README.md
 [Man and Food]: ./LiberalArts/ManAndFood/README.md[User Experience]: ./OtherMajors/UX/README.md
+[User Experience]: ./OtherMajors/UX/README.md
