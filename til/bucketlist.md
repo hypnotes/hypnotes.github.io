@@ -68,3 +68,9 @@ last_modified_at: 2022-12-01
 - `enum` 키워드는 사용 자제이유 (일반 객체로 as const, satisfies 키워드 이용)
 - `namespace` 키워드 (금지)
 - 제네릭 타입변수는 가급적 `PascalCase` ,가능하다면 간단하게 이름 붙이기
+
+## React JS 나온거
+
+- 모든 prop을 전개연산자로 넘기는 이유 
+- JS eval, Function 생성자 안쓰는 이유
+- `this`
