@@ -58,3 +58,13 @@ last_modified_at: 2022-12-01
 - [이거 해볼까...](https://fastcampus.co.kr/dev_online_upjscodingtest)
 - OS (threads, soforth for FrontEnd)
 - Computer Network 
+
+
+## 회사 공부 관련
+
+- [memory leaks](https://stackoverflow.com/questions/53230823/fatal-error-ineffective-mark-compacts-near-heap-limit-allocation-failed-javas)
+- named export vs default export
+- `interface` (금지) vs `type alias` 
+- `enum` 키워드는 사용 자제이유 (일반 객체로 as const, satisfies 키워드 이용)
+- `namespace` 키워드 (금지)
+- 제네릭 타입변수는 가급적 `PascalCase` ,가능하다면 간단하게 이름 붙이기
