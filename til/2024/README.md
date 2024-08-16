@@ -42,4 +42,5 @@ accent_image: /../assets/default-white.jpg
 [JS15: let, const 키워드와 블록 레벨 스코프]: ../../frontend/js/_posts/2024-08-07-js15.md
 [FP ch4]: ../../frontend/fp/README.md#chapter-4
 [react-native-share 🚀]: ./_posts/2024-07-01-July.md#812-react-native-share-
+<!-- [init atom on render]: ./_posts/2024-08-13- -->
 [JS23: 실행 컨텍스트]: ../../frontend/js/_posts/2024-08-15-js23.md
