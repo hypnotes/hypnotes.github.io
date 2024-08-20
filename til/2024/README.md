@@ -33,7 +33,7 @@ accent_image: /../assets/default-white.jpg
 |                   |                                |                                  |                                                    | 1 <br/>[JS13: 스코프] |         2         |         3         |
 |         4         | 5<br/>[React FC 사용 지양하기] | 6<br/>[JS14: 전역 변수의 문제점] | 7<br/>[JS15: let, const 키워드와 블록 레벨 스코프] |           8           |         9<br/>[FP ch4]         |        10         |
 |        11         |               12<br/>[react-native-share 🚀] Troubleshooting              |                13                |                         14                         |          15<br/>[JS23: 실행 컨텍스트]           |        16         |        17         |
-|        18         |               19               |                20                |                         21                         |          22           |        23         |        24         |
+|        18         |               19               |                20                |                         21                         |          22           |        23         |        24<br/>[JS24: Closures]         |
 |        25         |               26               |                27                |                         28                         |          29           |        30         |        31         |
 
 [JS13: 스코프]: ../../frontend/js/_posts/2024-08-01-js13.md
@@ -44,3 +44,4 @@ accent_image: /../assets/default-white.jpg
 [react-native-share 🚀]: ./_posts/2024-07-01-July.md#812-react-native-share-
 <!-- [init atom on render]: ./_posts/2024-08-13- -->
 [JS23: 실행 컨텍스트]: ../../frontend/js/_posts/2024-08-15-js23.md
+[JS24: Closures]: ../../frontend/js/_posts/2024-08-20-js24.md

@@ -12,6 +12,7 @@ permalink: /frontend/js
 - [14장 전역 변수의 문제점]{:.heading.flip-title} --- Problems with Global Variables
 - [15장 let, const 키워드와 블록 레벨 스코프] --- let, const keyword and block level scope
 - [23장 실행 컨텍스트]{:.heading.flip-title} --- Execution Context
+- [24장 클로저]{:.heading.flip-title} --- Closures
 
 [10장 객체 리터럴]: ./_posts/2024-07-29-js10.md
 [11장 원시값과 객체의 비교]: ./_posts/2024-07-30-js11.md
@@ -19,4 +20,4 @@ permalink: /frontend/js
 [14장 전역 변수의 문제점]: ./_posts/2024-08-06-js14.md
 [15장 let, const 키워드와 블록 레벨 스코프]: ./_posts/2024-08-07-js15.md
 [23장 실행 컨텍스트]: ./_posts/2024-08-15-js23.md
-
+[24장 클로저]: ./_posts/2024-08-20-js24.md
