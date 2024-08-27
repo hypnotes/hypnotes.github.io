@@ -34,7 +34,7 @@ accent_image: /../assets/default-white.jpg
 |         4         |         5<br/>[React FC 사용 지양하기]         | 6<br/>[JS14: 전역 변수의 문제점] | 7<br/>[JS15: let, const 키워드와 블록 레벨 스코프] |              8               |  9<br/>[FP ch4]   |           10            |
 |        11         | 12<br/>[react-native-share 🚀] Troubleshooting |                13                |                         14                         | 15<br/>[JS23: 실행 컨텍스트] |        16         |           17            |
 |        18         |                       19                       |                20                |                         21                         |              22              |        23         | 24<br/>[JS24: Closures] |
-|        25         |       26<br>[React - Event Loop, Async]        |                27                |                         28                         |              29              |        30         |           31            |
+|        25         |       26<br>[React - Event Loop, Async]        |    27<br/>[React - JS syntax]    |                         28                         |              29              |        30         |           31            |
 
 [JS13: 스코프]: ../../frontend/js/_posts/2024-08-01-js13.md
 [React FC 사용 지양하기]: ./_posts/2024-07-01-July.md#85-react-fc-사용-지양하기
@@ -48,3 +48,4 @@ accent_image: /../assets/default-white.jpg
 [JS23: 실행 컨텍스트]: ../../frontend/js/_posts/2024-08-15-js23.md
 [JS24: Closures]: ../../frontend/js/_posts/2024-08-20-js24.md
 [React - Event Loop, Async]: ../../frontend/react/_posts/2024-07-15-JS.md#15-이벤트-루프와-비동기-통신의-이해
+[React - JS syntax]: ../../frontend/react/_posts/2024-07-15-JS.md#16-리액트에서-자주-사용하는-자바스크립트-문법
