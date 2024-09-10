@@ -14,6 +14,8 @@ permalink: /frontend/
 - [Modern JS Deep Dive]{:.heading.flip-title} --- Modern JS 🦎
 - [React Deep Dive]{:.heading.flip-title} --- React Deep Dive ⚛️
 - [Functional Programming]{:.heading.flip-title} --- Functional Programming
+- [Next JS]{:.heading.flip-title} --- Next JS 강의들
+
 
 ### Docs
 
@@ -24,4 +26,5 @@ permalink: /frontend/
 [Functional Programming]: ./fp/README.md
 
 [Jotai]: ./jotai/README.md
+[Next Js]: ./next/README.md
 
