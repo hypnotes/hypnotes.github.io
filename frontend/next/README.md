@@ -3,7 +3,7 @@ title: NextJs
 description: >
   제대로 좀 하자구~
 sitemap: false
-permalink: /frontend/react
+permalink: /frontend/next
 ---
 
 ### 인프런
