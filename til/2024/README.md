@@ -62,3 +62,4 @@ accent_image: /../assets/default-white.jpg
 [React - JSX]: ../../frontend/react/_posts/2024-09-02-react.md#21-JSX란
 [React - Fiber]: ../../frontend/react/_posts/2024-09-02-react.md#22-가상-dom과-react-fiber
 [React - Components]: ../../frontend/react/_posts/2024-09-02-react.md#23-클래스-컴포넌트와-함수형-컴포넌트
+[Next - Basics]: ../../frontend/next/_posts/2024-09-10-basics.md
