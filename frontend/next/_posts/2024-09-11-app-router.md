@@ -1,8 +1,7 @@
 ---
 layout: post
-title: udemy approuter
-description: >
-
+title: App Router
+description: udemey 강의
 categories: javascript
 accent_color: "#D0C8B6"
 accent_image:
@@ -45,3 +44,101 @@ permalink: /frontend/next/approuter
   - **Children**: the CONTENT of `page.tsx`
 
   <!-- ![image](https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Fon-demand-revalidation.png&w=3840&q=75){:.lead width="200" height="100" loading="lazy"} -->
+
+- 🥷 "aggressive caching under the hood"
+
+  - data 를 포함해서 페이지를 캐싱함 (production mode는 특히나 더)
+
+- `loading.ts` 추가! (page.ts 의 sibling)
+
+  - 근데 이거보다는 그냥 로딩 필요한 부분 `<Suspense fallback={}>`처리가 더 좋음
+
+- `not-found.tsx` 추가
+
+  - `404` 페이지
+
+  ```js
+  const PostDetailPage = () => {
+  const { id } = useParams();
+
+  const item = tempData.find((data) => data.index === Number(id));
+
+  // 가장 가까운 not-found.tsx로 이동
+  if (!item) {
+    notFound();
+  }
+  ...
+  };
+
+  ```
+
+### Server Actions
+
+- form submit과 같은 서버 액션은 `use server`로 명시
+  - instead of `<form action={'/some-url'}>`
+- `async` 함수로 만들어야 함
+
+```js
+export async function SharePost() {
+  const sharePost = async (id) => {
+    'use server';
+    console.log('share post'); // terminal에 뜸
+  };
+
+  return {
+    <form action={sharePost}>
+      ...
+    </form>
+  };
+}
+```
+
+**client component에서 server action:**
+
+- error 뜸
+- 다른 파일에 분리
+
+actions.ts
+
+```js
+"use server";
+export async function SharePost() {
+  console.log("share post");
+}
+```
+
+```js
+// NO ERROR
+"use client";
+export async function SharePost() {
+  return {
+    <form action={sharePost}>
+      ...
+    </form>
+  };
+}
+```
+
+- form 사용 시 더 좋은 피드백을 위해
+  - `import { useActionState } from 'react';`
+  - `const [state, formAction] = useActionState(sharePost, {message: null});`
+  - 해서 `state.message && ...`으로 버튼명 변경해주던지 하기
+  - 대신, `sharePost` 의 첫번째 인자는 `prevState`여야 함. 두번쨰가 실제 값
+
+### Production
+
+`npm run build`, `npm run start`로 production mode로 확인
+
+- 더 빠름
+- [PRODUCTION ONLY] generates all static pages during build (pre-rendering)
+- $$\rightarrow$$ 무언가 post (rest)하면 refetching 필요
+- `revalidatePath('/posts')`로 해당 페이지만 revalidate 가능
+  - `revalidatePath('/posts', 'page')` // 'layout' 등 특정 파일만도 가능
+
+### assets
+
+- `public` 폴더에 넣어두면 `/_next/`에 자동으로 들어감 (build time)
+- 그 외 로컬에는 저장 X (S3, CloudFront 등에 저장)
+
+### Meta Data
+
