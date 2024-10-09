@@ -4,6 +4,11 @@ description: >
   제대로 좀 하자구~
 sitemap: false
 permalink: /frontend/next
+categories: next
+accent_color: "#FFF"
+accent_image:
+  background: "#000"
+theme_color: "#000"
 ---
 
 ### 인프런
@@ -12,8 +17,9 @@ permalink: /frontend/next
 
 ### Udemy
 
-- [App Router]{:.heading.flip-title} --- ...
+- [App Router]{:.heading.flip-title} --- Udemy 앱라우터 부분
+- [Routing]{:.heading.flip-title} --- 라우팅 및 페이지 렌더링 - 심층분석
 
 [손에 익는 Next.js]: ./_posts/2024-09-10-basics.md
 [App Router]: ./_posts/2024-09-11-app-router.md
-
+[Routing]: ./_posts/2024-09-27-routing.md
