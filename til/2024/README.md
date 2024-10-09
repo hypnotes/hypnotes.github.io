@@ -53,10 +53,12 @@ accent_image: /../assets/default-white.jpg
 
 ## September
 
-| $$~~$$ Sun $$~~$$ | $$~~$$ Mon $$~~$$ |  $$~~$$ Tue $$~~$$  |   $$~~$$ Wed $$~~$$   | $$~~$$ Thu $$~~$$ |     $$~~$$ Fri $$~~$$      | $$~~$$ Sat $$~~$$ |
-| :---------------: | :---------------: | :-----------------: | :-------------------: | :---------------: | :------------------------: | :---------------: |
-|         1         | 2<br/>[React- TS] | 3<br/>[React - JSX] | 4<br/>[React - Fiber] |         5         | 6<br/>[React - Components] |         7         |
-|         8         |         9         |         10<br/>[Next - Basics]          |          11<br/>[Next - App Router]           |        12         |             13             |        14         |
+| $$~~$$ Sun $$~~$$ | $$~~$$ Mon $$~~$$ |   $$~~$$ Tue $$~~$$    |     $$~~$$ Wed $$~~$$      | $$~~$$ Thu $$~~$$ |     $$~~$$ Fri $$~~$$      | $$~~$$ Sat $$~~$$ |
+| :---------------: | :---------------: | :--------------------: | :------------------------: | :---------------: | :------------------------: | :---------------: |
+|         1         | 2<br/>[React- TS] |  3<br/>[React - JSX]   |   4<br/>[React - Fiber]    |         5         | 6<br/>[React - Components] |         7         |
+|         8         |         9         | 10<br/>[Next - Basics] | 11<br/>[Next - App Router] |        12         |             13             |        14         |
+|        15         |        16<br/>[Next - Error pages]         |           17           |             18             |        19         |             20             |        21         |
+|        22         |        23         |           24           |             25             |        26         |             27             |        28         |
 
 [React- TS]: ../../frontend/react/_posts/2024-07-15-JS.md#17-선택이-아닌-필수-타입스크립트
 [React - JSX]: ../../frontend/react/_posts/2024-09-02-react.md#21-JSX란
@@ -64,3 +66,5 @@ accent_image: /../assets/default-white.jpg
 [React - Components]: ../../frontend/react/_posts/2024-09-02-react.md#23-클래스-컴포넌트와-함수형-컴포넌트
 [Next - Basics]: ../../frontend/next/_posts/2024-09-10-basics.md
 [Next - App Router]: ../../frontend/next/_posts/2024-09-11-app-router.md
+[Next - Error pages]: ../../frontend/next/_posts/2024-09-10-basics.md#Next-JS-손에-익히기
+[React - hooks]: ../../frontend/react/_posts/2024-09-23-hooks.md

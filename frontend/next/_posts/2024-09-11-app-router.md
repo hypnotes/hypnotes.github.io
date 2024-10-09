@@ -1,12 +1,13 @@
 ---
 layout: post
 title: App Router
-description: udemey 강의
-categories: javascript
-accent_color: "#D0C8B6"
+description: >
+  udemy 강의
+categories: next
+accent_color: "#FFF"
 accent_image:
-  background: "#E2DAD5"
-theme_color: "#D0C8B6"
+  background: "#000"
+theme_color: "#000"
 sitemap: false
 permalink: /frontend/next/approuter
 ---
@@ -44,6 +45,35 @@ permalink: /frontend/next/approuter
   - **Children**: the CONTENT of `page.tsx`
 
   <!-- ![image](https://nextjs.org/_next/image?url=%2Fdocs%2Fdark%2Fon-demand-revalidation.png&w=3840&q=75){:.lead width="200" height="100" loading="lazy"} -->
+
+- **Next Images** : lazy loading 가능
+  - dynamic loading 할꺼면 fill 써도 됨 (instead of width, height 추가!)
+
+**Components**
+
+1. Server Components
+2. React Server Components (RSC) <-- NEXT JS
+
+- console에 안찍힘! (브라우저에서 실행 안된다는 뜻)
+- eventhandlers, hooks 사용 불가
+
+3. Client Components
+
+- next는 fullstack (has backend executing the code) 이기 때문에 DEFAULT server component로 생성함
+
+- **_usePathName()_** (provided by NEXT)
+
+  ```js
+  const path = usePathName();
+  ```
+
+  - client side only
+
+- `use client` 는 최ㅣㅣㅣ대한 far down the tree에 넣기
+
+> 📌 server component는 async function으로 변환이 가능하다!<br/>
+
+- 안에 `await` 사용 가능
 
 - 🥷 "aggressive caching under the hood"
 
@@ -141,4 +171,3 @@ export async function SharePost() {
 - 그 외 로컬에는 저장 X (S3, CloudFront 등에 저장)
 
 ### Meta Data
-
