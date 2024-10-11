@@ -70,12 +70,13 @@ accent_image: /../assets/default-white.jpg
 
 ## October
 
-| $$~~$$ Sun $$~~$$ | $$~~$$ Mon $$~~$$ | $$~~$$ Tue $$~~$$ |           $$~~$$ Wed $$~~$$           | $$~~$$ Thu $$~~$$ | $$~~$$ Fri $$~~$$ | $$~~$$ Sat $$~~$$ |
-| :---------------: | :---------------: | :---------------: | :-----------------------------------: | :---------------: | :---------------: | :---------------: |
-|                   |                   |         1         | 2<br/>[Next - Parallel Routing], 실습 |         3         |         4<br/>[Next - Catch-all Routing], 실습         |         5         |
-|         6         |         7<br/>[Next - Error]         |         8         |                   9<br/>[Next - Data Fetching]                   |        10         |        11         |        12         |
+| $$~~$$ Sun $$~~$$ |  $$~~$$ Mon $$~~$$   | $$~~$$ Tue $$~~$$ |           $$~~$$ Wed $$~~$$           |    $$~~$$ Thu $$~~$$     |           $$~~$$ Fri $$~~$$            | $$~~$$ Sat $$~~$$ |
+| :---------------: | :------------------: | :---------------: | :-----------------------------------: | :----------------------: | :------------------------------------: | :---------------: |
+|                   |                      |         1         | 2<br/>[Next - Parallel Routing], 실습 |            3             | 4<br/>[Next - Catch-all Routing], 실습 |         5         |
+|         6         | 7<br/>[Next - Error] |         8         |     9<br/>[Next - Data Fetching]      | 10<br/>[useState], 실습 |                   11                   |        12         |
 
 [Next - Parallel Routing]: ../../frontend/next/_posts/2024-09-27-routing.md#-parallel-routes
 [Next - Catch-all Routing]: ../../frontend/next/_posts/2024-09-27-routing.md#-catch-all-routing
 [Next - Error]: ../../frontend/next/_posts/2024-09-27-routing.md#error
 [Next - Data Fetching]: ../../frontend/next/_posts/2024-10-09-data-fetching.md
+[useState]: ../../frontend/react/_posts/2024-09-23-hooks.md#useState

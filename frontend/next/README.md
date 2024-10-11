@@ -25,5 +25,5 @@ theme_color: "#000"
 [손에 익는 Next.js]: ./_posts/2024-09-10-basics.md
 [App Router]: ./_posts/2024-09-11-app-router.md
 [Routing]: ./_posts/2024-09-27-routing.md
-[Data Fetching]: ./_posts/2024-10-10-data-fetching.md
+[Data Fetching]: ./_posts/2024-10-09-data-fetching.md
 [Data Mutation]: ./_posts/2024-10-10-data-mutation.md

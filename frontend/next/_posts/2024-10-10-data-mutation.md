@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Fetching
+title: Data Mutation
 description: >
   데이터 변이 - 심층분석
 categories: next
@@ -11,3 +11,7 @@ theme_color: "#000"
 sitemap: false
 permalink: /frontend/next/datamutation
 ---
+
+### Server Actions
+
+- react 에서 제공함 (넥스트 한정 X)
