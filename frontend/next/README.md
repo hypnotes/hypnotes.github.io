@@ -22,6 +22,7 @@ theme_color: "#000"
 - [Data Fetching]{:.heading.flip-title} --- 데이터 가져오기 - 심층분석
 - [Data Mutation]{:.heading.flip-title} --- 데이터 변이 - 심층분석
 - [Caching]{:.heading.flip-title} --- 캐싱 이해 및 구성하기
+- [Optimization]{:.heading.flip-title} --- 앱 최적화
 
 [손에 익는 Next.js]: ./_posts/2024-09-10-basics.md
 [App Router]: ./_posts/2024-09-11-app-router.md
@@ -29,3 +30,4 @@ theme_color: "#000"
 [Data Fetching]: ./_posts/2024-10-09-data-fetching.md
 [Data Mutation]: ./_posts/2024-10-10-data-mutation.md
 [Caching]: ./_posts/2024-10-14-caching.md
+[Optimization]: ./_posts/2024-10-21-optimization.md
