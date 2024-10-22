@@ -57,6 +57,8 @@ menu:
     url:               /frontend/
   - title:             Today I Learned
     url:               /til/
+  - title:            Dev
+    url:               /dev/
   - title:             Projects
     url:               /projects/
   - title:             Books

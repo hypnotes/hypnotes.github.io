@@ -76,7 +76,7 @@ accent_image: /../assets/default-white.jpg
 |                   |                              |            1            | 2<br/>[Next - Parallel Routing], 실습 |            3            | 4<br/>[Next - Catch-all Routing], 실습 |         5         |
 |         6         |     7<br/>[Next - Error]     |            8            |     9<br/>[Next - Data Fetching]      | 10<br/>[useState], 실습 |     11<br/>[Next - Data Mutation]      |        12         |
 |        13         |  14<br/>[Next - use server]  | 15<br/>[Next - Caching] |       16<br/>[Full Route Cache]       |           17            |                   18                   |        19         |
-|        20         | 21<br/>[Next - Optimization] |           22            |                  23                   |           24            |                   25                   |        26         |
+|        20         | 21<br/>[Next - Optimization] |           22<br/>[JS - ResizeObserver]            |                  23                   |           24            |                   25                   |        26         |
 
 [Next - Parallel Routing]: ../../frontend/next/_posts/2024-09-27-routing.md#-parallel-routes
 [Next - Catch-all Routing]: ../../frontend/next/_posts/2024-09-27-routing.md#-catch-all-routing
@@ -86,5 +86,7 @@ accent_image: /../assets/default-white.jpg
 [Next - Data Mutation]: ../../frontend/next/_posts/2024-10-10-data-mutation.md
 [Next - use server]: ../../frontend/next/_posts/2024-10-10-data-mutation.md#use-server
 [Next - Caching]: ../../frontend/next/_posts/2024-10-14-caching.md
-[Full Route Cache]: ../../frontend/next/_posts/2024-10-14-caching.md#full-route-cache.md
+[Full Route Cache]: ../../frontend/next/_posts/2024-10-
+14-caching.md#full-route-cache.md
 [Next - Optimization]: ../../frontend/next/_posts/2024-10-21-optimization.md
+[JS - ResizeObserver]: ../../dev/work/2024-10-22-resize-observer.md
