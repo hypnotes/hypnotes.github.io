@@ -15,4 +15,4 @@ theme_color: "#000"
 
 - [Resize Observer]{:.heading.flip-title} --- JS API로 화면 회전에 따른 패널 크기 조절하기
 
-[Resize Observer]: ./work/2024-10-22-resize-observer
+[Resize Observer]: ./_posts/2024-10-22-resize-observer

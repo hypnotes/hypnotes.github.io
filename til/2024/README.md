@@ -89,4 +89,4 @@ accent_image: /../assets/default-white.jpg
 [Full Route Cache]: ../../frontend/next/_posts/2024-10-
 14-caching.md#full-route-cache.md
 [Next - Optimization]: ../../frontend/next/_posts/2024-10-21-optimization.md
-[JS - ResizeObserver]: ../../dev/work/2024-10-22-resize-observer.md
+[JS - ResizeObserver]: ../../dev/_posts/2024-10-22-resize-observer.md
