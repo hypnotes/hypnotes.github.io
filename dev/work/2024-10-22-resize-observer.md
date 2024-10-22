@@ -10,6 +10,8 @@ permalink: /dev/resize-observer
 sitemap: false
 ---
 
+### 배경 설명
+
 - 개발 내용: 화면 회전에 따라 에디터 패널 크기 조절하기
 
 요구사항:
@@ -21,8 +23,6 @@ sitemap: false
 - Height: 캔버스 넘어가면 캔버스 최대높이로 맞추기
 
 => 캔버스 높이를 알아야 한다 => ResizeObserver 사용
-
-## 소개
 
 - [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
 
@@ -71,7 +71,6 @@ useEffect(() => {
 
 ### Observation Errors
 
-여기 잘 이해 안가니 다시 읽어보기
 
 - paint 단계 전 (유저에게 보여지기 전) 변화를 감지한다
 - 따라서 Resize 이벤트 -> style, layout 재계산 => resize event 재발생 => 무한루프 가능
