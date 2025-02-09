@@ -6,6 +6,8 @@ sitemap: false
 permalink: /frontend/js
 ---
 
+- [6장 데이터 타입]{:.heading.flip-title} --- Data Types
+- [7장 연산자]{:.heading.flip-title} --- Operators
 - [10장 객체 리터럴]{:.heading.flip-title} --- Object Literals
 - [11장 원시값과 객체의 비교]{:.heading.flip-title} --- Primitive Values and Objects
 - [13장 스코프]{:.heading.flip-title} --- Scope
@@ -14,6 +16,8 @@ permalink: /frontend/js
 - [23장 실행 컨텍스트]{:.heading.flip-title} --- Execution Context
 - [24장 클로저]{:.heading.flip-title} --- Closures
 
+[6장 데이터 타입]: ./_posts/2025-02-09-js6.md
+[7장 연산자]: ./_posts/2025-02-09-js7.md
 [10장 객체 리터럴]: ./_posts/2024-07-29-js10.md
 [11장 원시값과 객체의 비교]: ./_posts/2024-07-30-js11.md
 [13장 스코프]: ./_posts/2024-08-01-js13.md
