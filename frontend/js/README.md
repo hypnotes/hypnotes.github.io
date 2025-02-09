@@ -17,7 +17,7 @@ permalink: /frontend/js
 - [24장 클로저]{:.heading.flip-title} --- Closures
 
 [6장 데이터 타입]: ./_posts/2025-02-09-js6.md
-[7장 연산자]: ./_posts/2025-02-09-js7.md
+[7장 연산자]: ./_posts/2025-02-10-js7.md
 [10장 객체 리터럴]: ./_posts/2024-07-29-js10.md
 [11장 원시값과 객체의 비교]: ./_posts/2024-07-30-js11.md
 [13장 스코프]: ./_posts/2024-08-01-js13.md
