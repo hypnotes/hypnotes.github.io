@@ -15,6 +15,8 @@ permalink: /frontend/js
 - [13장 스코프]{:.heading.flip-title} --- Scope
 - [14장 전역 변수의 문제점]{:.heading.flip-title} --- Problems with Global Variables
 - [15장 let, const 키워드와 블록 레벨 스코프] --- let, const keyword and block level scope
+- [16장 프로퍼티 어트리뷰트]{:.heading.flip-title} --- Property Attributes
+- [17장 생성자 함수에 의한 객체 생성]{:.heading.flip-title} --- Constructor Function and Object Creation
 - [23장 실행 컨텍스트]{:.heading.flip-title} --- Execution Context
 - [24장 클로저]{:.heading.flip-title} --- Closures
 
@@ -29,3 +31,5 @@ permalink: /frontend/js
 [15장 let, const 키워드와 블록 레벨 스코프]: ./_posts/2024-08-07-js15.md
 [23장 실행 컨텍스트]: ./_posts/2024-08-15-js23.md
 [24장 클로저]: ./_posts/2024-08-20-js24.md
+[16장 프로퍼티 어트리뷰트]: ./_posts/2025-02-28-js16.md
+[17장 생성자 함수에 의한 객체 생성]: ./_posts/2025-03-01-js17.md
