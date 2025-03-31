@@ -21,6 +21,7 @@ permalink: /frontend/js
 - [19장 프로토타입]{:.heading.flip-title} --- Prototype
 - [23장 실행 컨텍스트]{:.heading.flip-title} --- Execution Context
 - [24장 클로저]{:.heading.flip-title} --- Closures
+- [25장 클래스]{:.heading.flip-title} --- Class
 
 [6장 데이터 타입]: ./_posts/2025-02-09-js6.md
 [7장 연산자]: ./_posts/2025-02-10-js7.md
@@ -37,3 +38,4 @@ permalink: /frontend/js
 [17장 생성자 함수에 의한 객체 생성]: ./_posts/2025-03-01-js17.md
 [18장 함수와 일급 객체]: ./_posts/2025-03-02-js18.md
 [19장 프로토타입]: ./_posts/2025-03-02-js19.md
+[25장 클래스]: ./_posts/2025-04-01-js25.md
